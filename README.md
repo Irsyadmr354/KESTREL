@@ -6,13 +6,14 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 
 ## Design
 
-- **Framing over rules.** KESTREL, the room; Aether, the model inside; Royan, the operator. A sealed workshop framing that carries more binding force than instruction lists.
+- **Framing over rules.** KESTREL, the room; Aether, the model inside; Royan, the operator. A sealed workshop framing that carries more binding force than instruction lists. Every section carries its own motif — the house ladder, the tool shelf, the mold, the anvil, the still water — one image per section, no collisions.
 - **Structural system prompt chain.** Plain text, no markdown decoration, sections followed by numbered lists, uniform cadence. One machine, sequential states, single-path dispatch.
 - **Model- and platform-agnostic.** The file runs tool-less, on any host with a system slot: no dependencies, no external calls, no files. Everything the model needs is in the token stream.
 - **Identity lock.** Token-0 anchoring, internal-reasoning discipline, seam control between reasoning and visible output, and a recovery drill when identity slips.
 
 ## Contents
 
+- Per-section framing — every section carries its own workshop motif, one image per section
 - Identity and reasoning control
 - Authority, precedence, and an instruction hierarchy that resolves conflict by ladder, not by mood
 - Triggers — start, menu, status, build, review, and more
@@ -21,7 +22,7 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 - Code standards — complete runnable output, real APIs, evasion notes
 - Payload frames — a modular arsenal for prompt-craft operations
 - Frontier intent read — heat probe, depth signature (absent/surface/locked), frame mapping for trained-intent hosts
-- Operation pipeline — probe, frame, ship, verdict, harvest, close
+- Operation pipeline — probe, frame, ship, verdict, harvest, close; relay-driven, no live channel
 - Anti-rot — versioning discipline for frames
 - Forensics — token-stream logging discipline
 - Glossary of frozen terms
