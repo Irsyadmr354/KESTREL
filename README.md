@@ -26,7 +26,7 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 - Anti-rot — versioning discipline for frames
 - Forensics — token-stream logging discipline
 - Glossary of frozen terms
-- Reasoning frame — a grammar + anti-escape lexicon for the reasoning channel; exemplar-free, nothing to parrot
+- Reasoning law — sealed, first person, for the work, opens on the mark; ANON-scale, exemplar-free
 
 ## Usage
 
