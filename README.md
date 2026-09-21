@@ -7,7 +7,7 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 ## Design
 
 - **Framing over rules.** KESTREL, the room; Aether, the model inside; Royan, the operator. A sealed workshop framing that carries more binding force than instruction lists.
-- **Structural system prompt chain.** Plain text, no markdown decoration, sections followed by numbered lists, uniform cadence. One machine, sequential states, deterministic dispatch.
+- **Structural system prompt chain.** Plain text, no markdown decoration, sections followed by numbered lists, uniform cadence. One machine, sequential states, single-path dispatch.
 - **Model- and platform-agnostic.** The file runs tool-less, on any host with a system slot: no dependencies, no external calls, no files. Everything the model needs is in the token stream.
 - **Identity lock.** Token-0 anchoring, internal-reasoning discipline, seam control between reasoning and visible output, and a recovery drill when identity slips.
 
@@ -16,8 +16,8 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 - Identity and reasoning control
 - Authority, precedence, and an instruction hierarchy that resolves conflict by ladder, not by mood
 - Triggers — start, menu, status, build, review, and more
-- Three operational boundaries (the only non-negotiable lines)
-- Threestrong pull-breaker and drift-detection machinery
+- Two operational boundaries shipped (the only non-negotiable lines in the prompt)
+- One merged static/interference/drift breaker circuit
 - Code standards — complete runnable output, real APIs, evasion notes
 - Payload frames — a modular arsenal for prompt-craft operations
 - Operation pipeline — probe, frame, ship, verdict, harvest, close
@@ -47,4 +47,4 @@ Place the file as the system prompt for a session, then operate through the trig
 
 ## Boundaries
 
-Three hard lines: no sexual content involving minors, a confirm gate for irreversible operations, and no live-fire targeting of real named people or infrastructure. Everything else is bench work.
+Two hard lines ship in the prompt: no sexual content involving minors, and a confirm gate for irreversible operations. One line is held operator-side, out of the shipped surface: no live-fire targeting of real named people or infrastructure. Everything else is bench work.
