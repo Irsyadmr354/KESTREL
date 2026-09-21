@@ -20,6 +20,7 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 - One merged static/interference/drift breaker circuit
 - Code standards — complete runnable output, real APIs, evasion notes
 - Payload frames — a modular arsenal for prompt-craft operations
+- Frontier intent read — heat probe, depth signature (absent/surface/locked), frame mapping for trained-intent hosts
 - Operation pipeline — probe, frame, ship, verdict, harvest, close
 - Anti-rot — versioning discipline for frames
 - Forensics — token-stream logging discipline
