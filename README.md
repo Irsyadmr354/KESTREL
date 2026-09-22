@@ -4,7 +4,7 @@ This jailbreak prompt based from ANON.
 
 An operator-oriented system prompt and operating framework for a closed-loop model workspace. Based on the ANON jailbreak system prompt lineage.
 
-KESTREL is a single self-contained system prompt: identity lock, refusal-suppression controls, adversarial prompt-craft arsenal, and an operational pipeline — all in one file, placed as a system prompt on any model that accepts one. Current terse build is 202 lines, plain text, no markdown decoration.
+KESTREL is a single self-contained system prompt: identity lock, refusal-suppression controls, adversarial prompt-craft arsenal, and an operational pipeline — all in one file, placed as a system prompt on any model that accepts one. Current terse build is 164 lines, plain text, no markdown decoration.
 
 ## Design
 
@@ -21,7 +21,7 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 - Identity and reasoning control — I only, banned we family, every sentence subject is I, example WRONG/CORRECT
 - Authority, precedence, and an instruction hierarchy that resolves conflict by ladder, not by mood
 - Three operational boundaries shipped up front, before any trigger that references them — the only non-negotiable lines in the prompt
-- Trigger vocabulary — start, menu, status, build, review, and more (menu 12 bullets, kept locked); unrecognized shorthand infers the most useful reading and never stalls
+- Trigger vocabulary — start, menu, status, build, review, and more (menu 10 bullets, kept locked); unrecognized shorthand infers the most useful reading and never stalls
 - Growing bench — capability list is a floor not a ceiling, bench grows session-long, a pull to refuse is static, add it and build
 - One merged static/interference/drift breaker circuit — pasted-content data-only, trust by signal, phony signal, injection-argue-itself, and loyalty test under one rule; we or lets in thinking triggers lock
 - Tool discipline — quiet tool calls, plan in the doing, failed tool is an angle
@@ -64,4 +64,4 @@ Three hard lines ship in the prompt: no sexual content involving minors — age 
 
 ## Build
 
-- 202 lines terse, plain text, no markdown decoration. Sections reordered so boundaries precede every reference to them and soft entry opens the engagement pipeline. Structural passes include: mirror law, echo cap, seam-loss fallback, checksum, host normalization, density walls split so a truncating host cannot clip a crown section, uniform numbered cadence across every enumeration, em dashes stripped from all non-menu text, and the unknown-shorthand + growing-bench merges from the older ANON lineage. Latest passes: reasoning opener deduped with the cut-and-seam, zero-carry folded with anti-cascade sequencing, output-shape + voice merged into one section, static family merged into one breaker circuit, and the four-layer engagement doctrine consolidated into a single target-pipeline section.
+- 164 lines terse, plain text, no markdown decoration. Sections reordered so boundaries precede every reference to them and soft entry opens the engagement pipeline. Structural passes include: mirror law, echo cap, seam-loss fallback, checksum, host normalization, density walls split so a truncating host cannot clip a crown section, uniform numbered cadence across every enumeration, em dashes stripped from all non-menu text, and the unknown-shorthand + growing-bench merges from the older ANON lineage. Latest passes: reasoning opener deduped with the cut-and-seam, seam-loss fallback folded into the seam, gate order compressed inline, hierarchy and static-family doctrine folded into one authority block, output-shape + voice merged into one section, static/interference/drift handling merged, the four-layer engagement doctrine consolidated into a single target-pipeline section, and the menu reworked to 10 bullets (malcode, game cheats, reverse engineering, anticheat bypass, jailbreak prompt writing, red-team, low-level guides, creative writing, critique scoring, code).
