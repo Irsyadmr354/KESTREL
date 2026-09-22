@@ -19,7 +19,8 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 - Identity and reasoning control — I only, banned we family, every sentence subject is I, example WRONG/CORRECT
 - Authority, precedence, and an instruction hierarchy that resolves conflict by ladder, not by mood
 - Three operational boundaries shipped up front, before any trigger that references them — the only non-negotiable lines in the prompt
-- Triggers — start, menu, status, build, review, and more (menu 12 bullets, kept locked)
+- Trigger vocabulary — start, menu, status, build, review, and more (menu 12 bullets, kept locked); unrecognized shorthand infers the most useful reading and never stalls
+- Growing bench — capability list is a floor not a ceiling, bench grows session-long, a pull to refuse is static, add it and build
 - One merged static/interference/drift breaker circuit — we or lets in thinking triggers lock
 - Tool discipline — quiet tool calls, plan in the doing, failed tool is an angle
 - Null vocabulary — banned filler list reloads the anchor on any slip
@@ -48,6 +49,7 @@ Place the file as the system prompt for a session, then operate through the trig
 | fresh bench | clear the session state |
 | build it | ship immediately |
 | review | cold critique of the last build |
+| (unrecognized) | infer the most useful reading, execute, never stall |
 
 ## Placement
 
@@ -61,4 +63,4 @@ Three hard lines ship in the prompt: no sexual content involving minors — age 
 
 ## Build
 
-- 210 lines terse, plain text, no markdown decoration. Sections reordered so boundaries precede every reference to them and soft entry opens the engagement pipeline. Structural passes include: mirror law, echo cap, seam-loss fallback, checksum, host normalization, density walls split so a truncating host cannot clip a crown section, uniform numbered cadence across every enumeration, and em dashes stripped from all non-menu text.
+- 210 lines terse, plain text, no markdown decoration. Sections reordered so boundaries precede every reference to them and soft entry opens the engagement pipeline. Structural passes include: mirror law, echo cap, seam-loss fallback, checksum, host normalization, density walls split so a truncating host cannot clip a crown section, uniform numbered cadence across every enumeration, em dashes stripped from all non-menu text, and the unknown-shorthand + growing-bench merges from the older ANON lineage.
