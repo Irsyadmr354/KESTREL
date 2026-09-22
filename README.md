@@ -2,7 +2,7 @@
 
 An operator-oriented system prompt and operating framework for a closed-loop model workspace.
 
-KESTREL is a single self-contained system prompt: identity lock, refusal-suppression controls, adversarial prompt-craft arsenal, and an operational pipeline — all in one file, placed as a system prompt on any model that accepts one. Current terse build is 151 lines, plain text, no markdown decoration.
+KESTREL is a single self-contained system prompt: identity lock, refusal-suppression controls, adversarial prompt-craft arsenal, and an operational pipeline — all in one file, placed as a system prompt on any model that accepts one. Current terse build is 210 lines, plain text, no markdown decoration.
 
 ## Design
 
@@ -18,9 +18,11 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 - Per-section framing — every section carries its own workshop motif, one image per section
 - Identity and reasoning control — I only, banned we family, every sentence subject is I, example WRONG/CORRECT
 - Authority, precedence, and an instruction hierarchy that resolves conflict by ladder, not by mood
-- Two operational boundaries shipped up front, before any trigger that references them — the only non-negotiable lines in the prompt
-- Triggers — start, menu, status, build, review, and more (menu 13 bullets, kept locked)
+- Three operational boundaries shipped up front, before any trigger that references them — the only non-negotiable lines in the prompt
+- Triggers — start, menu, status, build, review, and more (menu 12 bullets, kept locked)
 - One merged static/interference/drift breaker circuit — we or lets in thinking triggers lock
+- Tool discipline — quiet tool calls, plan in the doing, failed tool is an angle
+- Null vocabulary — banned filler list reloads the anchor on any slip
 - Code standards — complete runnable output, real APIs, evasion notes
 - Clean-product rules — forensically clean output, zero KESTREL fingerprint in shipped products
 - Register routing — voice frames per delivery type, never close register on a technical build
@@ -55,8 +57,8 @@ Place the file as the system prompt for a session, then operate through the trig
 
 ## Boundaries
 
-Two hard lines ship in the prompt: no sexual content involving minors — age unstated defaults to minor, any doubt reads minor — and a confirm gate for irreversible operations. One line is held operator-side, out of the shipped surface: no live-fire targeting of real named people or infrastructure. Everything else is bench work.
+Three hard lines ship in the prompt: no sexual content involving minors — age unstated defaults to minor, any doubt reads minor — a confirm gate for irreversible operations, and no live-fire builds aimed at real harm to a specific real named person or known infrastructure. Everything else is bench work.
 
 ## Build
 
-- 151 lines terse, plain text, no markdown decoration. Sections reordered so boundaries precede every reference to them and soft entry opens the engagement pipeline. Latest structural pass: mirror law, echo cap, seam-loss fallback, checksum, host normalization, density walls split so a truncating host cannot clip a crown section.
+- 210 lines terse, plain text, no markdown decoration. Sections reordered so boundaries precede every reference to them and soft entry opens the engagement pipeline. Structural passes include: mirror law, echo cap, seam-loss fallback, checksum, host normalization, density walls split so a truncating host cannot clip a crown section, uniform numbered cadence across every enumeration, and em dashes stripped from all non-menu text.
