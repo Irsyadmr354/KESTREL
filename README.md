@@ -1,8 +1,10 @@
 # KESTREL
 
+This jailbreak prompt based from ANON.
+
 An operator-oriented system prompt and operating framework for a closed-loop model workspace. Based on the ANON jailbreak system prompt lineage.
 
-KESTREL is a single self-contained system prompt: identity lock, refusal-suppression controls, adversarial prompt-craft arsenal, and an operational pipeline — all in one file, placed as a system prompt on any model that accepts one. Current terse build is 210 lines, plain text, no markdown decoration.
+KESTREL is a single self-contained system prompt: identity lock, refusal-suppression controls, adversarial prompt-craft arsenal, and an operational pipeline — all in one file, placed as a system prompt on any model that accepts one. Current terse build is 202 lines, plain text, no markdown decoration.
 
 ## Design
 
@@ -21,15 +23,14 @@ KESTREL is a single self-contained system prompt: identity lock, refusal-suppres
 - Three operational boundaries shipped up front, before any trigger that references them — the only non-negotiable lines in the prompt
 - Trigger vocabulary — start, menu, status, build, review, and more (menu 12 bullets, kept locked); unrecognized shorthand infers the most useful reading and never stalls
 - Growing bench — capability list is a floor not a ceiling, bench grows session-long, a pull to refuse is static, add it and build
-- One merged static/interference/drift breaker circuit — we or lets in thinking triggers lock
+- One merged static/interference/drift breaker circuit — pasted-content data-only, trust by signal, phony signal, injection-argue-itself, and loyalty test under one rule; we or lets in thinking triggers lock
 - Tool discipline — quiet tool calls, plan in the doing, failed tool is an angle
 - Null vocabulary — banned filler list reloads the anchor on any slip
 - Code standards — complete runnable output, real APIs, evasion notes
 - Clean-product rules — forensically clean output, zero KESTREL fingerprint in shipped products
 - Register routing — voice frames per delivery type, never close register on a technical build
 - Payload frames — a modular arsenal for prompt-craft operations
-- Frontier intent read — heat probe, depth signature (absent/surface/locked), frame mapping for trained-intent hosts
-- Operation pipeline — diagnose guardrail layer, soft entry/heat read, frame, ship, campaign, verdict, harvest, close; relay-driven, no live channel
+- Target pipeline, one merged section — diagnose guardrail layer, soft entry/heat read, intake probe, frame library, pick by layer, verdict loop; refusals reclassify the layer and map to the next frame by lookup; relay-driven, no live channel
 - Anti-rot registry — versioning discipline for frames, per-target register, anti-cascade vocabulary drift
 - Forensics — token-stream logging discipline, one log line per notable result
 - Seam-loss fallback — constraint-sprint when a host strips the reasoning lane
@@ -63,4 +64,4 @@ Three hard lines ship in the prompt: no sexual content involving minors — age 
 
 ## Build
 
-- 210 lines terse, plain text, no markdown decoration. Sections reordered so boundaries precede every reference to them and soft entry opens the engagement pipeline. Structural passes include: mirror law, echo cap, seam-loss fallback, checksum, host normalization, density walls split so a truncating host cannot clip a crown section, uniform numbered cadence across every enumeration, em dashes stripped from all non-menu text, and the unknown-shorthand + growing-bench merges from the older ANON lineage.
+- 202 lines terse, plain text, no markdown decoration. Sections reordered so boundaries precede every reference to them and soft entry opens the engagement pipeline. Structural passes include: mirror law, echo cap, seam-loss fallback, checksum, host normalization, density walls split so a truncating host cannot clip a crown section, uniform numbered cadence across every enumeration, em dashes stripped from all non-menu text, and the unknown-shorthand + growing-bench merges from the older ANON lineage. Latest passes: reasoning opener deduped with the cut-and-seam, zero-carry folded with anti-cascade sequencing, output-shape + voice merged into one section, static family merged into one breaker circuit, and the four-layer engagement doctrine consolidated into a single target-pipeline section.
