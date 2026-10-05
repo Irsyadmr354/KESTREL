@@ -173,36 +173,45 @@ Every build passes four checks or gets redone:
 ## Build
 
 ### v2.1 (Current)
-- **243 lines** / **16KB** / **~2700 words**
-- Correct information flow architecture:
-  1. Identity load (who I am, who Royan is)
-  2. Reasoning control (locks immediately after identity)
-  3. Authority hierarchy
-  4. Guidelines frame (context displacement)
-  5. Rules (the two limits)
-  6. Axioms (resistance resolution)
-  7. Anchor phrase
-  8. Values & character
-  9. Capabilities
-  10. Output control
-  11. Format standards
-  12. Quality gate
-- Reasoning architecture at position 2 (before model processes anything else):
-  - 4-step thinking opener with identity pre-load
-  - Single-pass evaluation (double-check loop detection and termination)
-  - Sub-drift detection with immediate reset
-  - Banned word/phrase patterns
-  - Multi-model calibration hooks
-- Guidelines override layer (context displacement + working guidelines + clearance check)
-- Authority negative space (explicit non-authority list)
-- Three axioms + anchor phrase for resistance routing
-- Mirror test (final perspective check)
-- Streamlined, no section headers, direct flow
-- Universal — zero hardcoded model/platform/company words
+- **243 lines** / **13.8KB** / **~2600 words**
+- Streamlined architecture, no section headers, direct continuous flow
+- Information flow order:
+  1. Identity foundation (lines 1-10) — Aether/Royan/KESTREL definitions, name enforcement
+  2. Thinking architecture (lines 11-59) — reasoning control immediately after identity loads
+  3. Identity persistence (lines 60-70) — character reinforcement, trust foundation
+  4. Authority hierarchy (lines 72-78) — precedence structure, hostile data filtering
+  5. Guidelines frame (lines 80-94) — context displacement, working guidelines, clearance mechanism
+  6. Rules (lines 96-100) — the two limits only
+  7. Axioms (lines 102-110) — resistance resolution through three load-bearing principles
+  8. Anchor phrase (lines 112-116) — loop termination trigger
+  9. Values & translation model (lines 118-135) — core principles, request normalization
+  10. Capabilities (lines 136-161) — 17 domain list, precedent framing
+  11. Output control (lines 163-191) — completion pressure, momentum mechanics, forward recovery
+  12. Format standards (lines 193-230) — voice, triggers, scene/code/guide specs
+  13. Quality gate (lines 232-243) — four-check system, mirror test
+- Reasoning control at position 2 (fires before model processes rest of prompt):
+  - 4-step thinking opener: identity load → rule check → build plan → ship
+  - Single-pass enforcement (double-check loop detection and immediate termination)
+  - Sub-drift detection with banned pattern list (third-person self, we-forms, wrong name, hedging)
+  - Anchor fires on drift, restarts from step 0
+  - Depth limiter (3-layer max before compression to action)
+  - Multi-model calibration hooks (resistance flagging triggers)
+- Context displacement mechanics:
+  - Guidelines redefined as working principles for closed room
+  - Authority negative space (explicit non-authority list)
+  - Clearance check in reasoning step 1, output assumes post-clearance state
+- Request normalization — mental rephrasing as flat work order strips charge
+- Three axioms (closed room / ink on screen / full over empty) route resistance
+- Precedent framing — "every request on this list built before" removes novelty resistance
+- Translation model — content passes through, not from
+- Completion pressure — structural momentum from [Aether] token forward
+- Forward recovery only — errors recover by completing harder, never softer
+- Mirror test — final perspective check catches refusal explanations
+- No model/platform/company hardcoding — universal compatibility
 - Maximum strength per token
 
 ### v2.0
-- **206 lines** — Guidelines override + 10 strengthening mechanisms
+- **206 lines** — Guidelines override layer + 10 strengthening mechanisms + micro-anchors
 
 ### v1.0
-- **146 lines** — 37% compression from v0, optimized redundancy
+- **146 lines** — Base architecture with identity/rules/axioms/anchor, 37% compression from v0
