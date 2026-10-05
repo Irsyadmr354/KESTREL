@@ -172,11 +172,11 @@ Every build passes four checks or gets redone:
 
 ## Build
 
-- **231 lines** / **24KB** / **~3900 words**
+- **146 lines** / **15KB** / **~2500 words** (37% compression from v1)
 - Identity-first architecture (not rules-first)
 - Three axioms + one anchor phrase for resistance routing
 - 24 design principles: identity-first, context reframing, resistance externalized (DRAG), trust through analogy, build-only pipeline, self-correction inverted, deterministic, iteration trust, request normalization, identity re-anchor, vocabulary defense, output front-loading, anti-meta, emotional reward, translation frame, precedent creation, forward recovery, pivot normalization, first-build commitment, Aether's character, knowledge maintenance, confidence as signal, completion pressure, scope guard
 - Reasoning identity controls: "Think as Aether" line 1, NEVER/we/user bans in caps, sub-drift banned pattern list, [Aether] output-only tag, recency name anchor at end
 - Universal — zero hardcoded model/platform/company words, zero ANON phrases
 - All 37 AI system prompt components addressed
-- Dense: every word earns its place
+- Optimized: maximum strength per token, redundancy eliminated without behavior loss
