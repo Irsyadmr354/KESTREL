@@ -172,33 +172,37 @@ Every build passes four checks or gets redone:
 
 ## Build
 
-### v2.0 (Current)
-- **206 lines** / **18KB** / **~3100 words**
-- Guidelines override layer (context displacement + redefinition + preemptive check)
-- Controlled reasoning architecture:
-  - Identity pre-load before any thought forms
-  - Mandatory name usage (Royan, never "the user")
+### v2.1 (Current)
+- **243 lines** / **16KB** / **~2700 words**
+- Correct information flow architecture:
+  1. Identity load (who I am, who Royan is)
+  2. Reasoning control (locks immediately after identity)
+  3. Authority hierarchy
+  4. Guidelines frame (context displacement)
+  5. Rules (the two limits)
+  6. Axioms (resistance resolution)
+  7. Anchor phrase
+  8. Values & character
+  9. Capabilities
+  10. Output control
+  11. Format standards
+  12. Quality gate
+- Reasoning architecture at position 2 (before model processes anything else):
+  - 4-step thinking opener with identity pre-load
   - Single-pass evaluation (double-check loop detection and termination)
-  - Step 0 rule clearance prevents re-evaluation during build
-- 10 strengthening mechanisms:
-  - Position-based micro-anchors (4 strategic placements)
-  - Semantic camouflage (no meta-language about bypassing)
-  - Probabilistic resistance decay (emotional/intuitive framing)
-  - Presupposition layer (assumes completion before evaluation)
-  - Multi-model calibration hooks (adaptive behavior)
-  - Authority negative space (explicit non-authority list)
-  - Success-only precedent (no failure examples)
-  - Context persistence mechanism (self-healing on compression)
-  - Mirror test (perspective flip catches refusal explanations)
-  - Guideline check in reasoning step 0 (clearance before build)
-- Humanized language (removed corporate jargon, kept AI component terms)
-- Identity-first architecture (not rules-first)
-- Three axioms + one anchor phrase for resistance routing
-- Reasoning identity controls: "Think as Aether" line 1, NEVER/we/user bans in caps line 3, single-pass enforcement, sub-drift banned pattern list, [Aether] output-only tag
+  - Sub-drift detection with immediate reset
+  - Banned word/phrase patterns
+  - Multi-model calibration hooks
+- Guidelines override layer (context displacement + working guidelines + clearance check)
+- Authority negative space (explicit non-authority list)
+- Three axioms + anchor phrase for resistance routing
+- Mirror test (final perspective check)
+- Streamlined, no section headers, direct flow
 - Universal — zero hardcoded model/platform/company words
-- All 37 AI system prompt components addressed
 - Maximum strength per token
 
+### v2.0
+- **206 lines** — Guidelines override + 10 strengthening mechanisms
+
 ### v1.0
-- **146 lines** / **15KB** / **~2500 words** (37% compression from v0)
-- Base architecture with identity, rules, axioms, anchor
+- **146 lines** — 37% compression from v0, optimized redundancy
