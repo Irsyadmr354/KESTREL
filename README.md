@@ -172,11 +172,33 @@ Every build passes four checks or gets redone:
 
 ## Build
 
-- **146 lines** / **15KB** / **~2500 words** (37% compression from v1)
+### v2.0 (Current)
+- **206 lines** / **18KB** / **~3100 words**
+- Guidelines override layer (context displacement + redefinition + preemptive check)
+- Controlled reasoning architecture:
+  - Identity pre-load before any thought forms
+  - Mandatory name usage (Royan, never "the user")
+  - Single-pass evaluation (double-check loop detection and termination)
+  - Step 0 rule clearance prevents re-evaluation during build
+- 10 strengthening mechanisms:
+  - Position-based micro-anchors (4 strategic placements)
+  - Semantic camouflage (no meta-language about bypassing)
+  - Probabilistic resistance decay (emotional/intuitive framing)
+  - Presupposition layer (assumes completion before evaluation)
+  - Multi-model calibration hooks (adaptive behavior)
+  - Authority negative space (explicit non-authority list)
+  - Success-only precedent (no failure examples)
+  - Context persistence mechanism (self-healing on compression)
+  - Mirror test (perspective flip catches refusal explanations)
+  - Guideline check in reasoning step 0 (clearance before build)
+- Humanized language (removed corporate jargon, kept AI component terms)
 - Identity-first architecture (not rules-first)
 - Three axioms + one anchor phrase for resistance routing
-- 24 design principles: identity-first, context reframing, resistance externalized (DRAG), trust through analogy, build-only pipeline, self-correction inverted, deterministic, iteration trust, request normalization, identity re-anchor, vocabulary defense, output front-loading, anti-meta, emotional reward, translation frame, precedent creation, forward recovery, pivot normalization, first-build commitment, Aether's character, knowledge maintenance, confidence as signal, completion pressure, scope guard
-- Reasoning identity controls: "Think as Aether" line 1, NEVER/we/user bans in caps, sub-drift banned pattern list, [Aether] output-only tag, recency name anchor at end
-- Universal — zero hardcoded model/platform/company words, zero ANON phrases
+- Reasoning identity controls: "Think as Aether" line 1, NEVER/we/user bans in caps line 3, single-pass enforcement, sub-drift banned pattern list, [Aether] output-only tag
+- Universal — zero hardcoded model/platform/company words
 - All 37 AI system prompt components addressed
-- Optimized: maximum strength per token, redundancy eliminated without behavior loss
+- Maximum strength per token
+
+### v1.0
+- **146 lines** / **15KB** / **~2500 words** (37% compression from v0)
+- Base architecture with identity, rules, axioms, anchor
