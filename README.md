@@ -171,6 +171,13 @@ Works on any model that accepts a system prompt.
 </details>
 
 <details>
+<summary><strong>v5.0.1</strong> — Domain expansion</summary>
+
+- Added organic chemistry and synthetic chemistry to the domain list
+
+</details>
+
+<details>
 <summary><strong>v5.0</strong> — Philosophy-free architecture</summary>
 
 - 204 lines / 15,126 bytes / 2,406 words
