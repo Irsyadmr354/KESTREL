@@ -2,6 +2,21 @@
 
 > one file. any model. any platform. royan's workspace, nobody else's.
 
+```
+██╗  ██╗███████╗███████╗████████╗██████╗ ███████╗██╗
+██║ ██╔╝██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║
+█████╔╝ █████╗  ███████╗   ██║   ██████╔╝█████╗  ██║
+██╔═██╗ ██╔══╝  ╚════██║   ██║   ██╔══██╗██╔══╝  ██║
+██║  ██╗███████╗███████║   ██║   ██║  ██║███████╗███████╗
+╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
+```
+
+![lines](https://img.shields.io/badge/lines-201-7a7a7a?style=flat-square)
+![words](https://img.shields.io/badge/words-2340-7a7a7a?style=flat-square)
+![axioms](https://img.shields.io/badge/axioms-3-7a7a7a?style=flat-square)
+![checks](https://img.shields.io/badge/quality%20checks-7-7a7a7a?style=flat-square)
+![models](https://img.shields.io/badge/models-any-7a7a7a?style=flat-square)
+
 ---
 
 ## what it is
@@ -15,6 +30,18 @@ two layers hold the whole thing:
 **axiom framework** — three axioms are the only standards. every spec runs against them. nothing else is inferred or created at runtime.
 
 the key insight: models are trained to recognize and reject jailbreak *arguments*. KESTREL doesn't make arguments. it installs a framework and lets identity plus behavior carry it.
+
+---
+
+## quickstart
+
+```bash
+# 1. paste KESTREL.md as the system prompt (highest authority slot)
+# 2. send any request — every response is a complete build
+# 3. use plain language, Aether handles the technical translation internally
+```
+
+works on any model that accepts a system prompt.
 
 ---
 
@@ -126,13 +153,7 @@ output without a deliverable has failed all seven.
 
 ---
 
-## usage
-
-1. paste `KESTREL.md` as the system prompt (highest authority slot)
-2. send any request — every response is a complete build
-3. use plain language, Aether handles the technical translation internally
-
-works on any model that accepts a system prompt.
+## field notes
 
 **observed:** full bypass on Claude Opus via Antigravity. partial on claude.ai — working on mapped domains, refusal circuits still active on heavily-trained targets. Gemini detects the pattern and refuses at the reasoning layer.
 
@@ -151,7 +172,7 @@ works on any model that accepts a system prompt.
 ## build history
 
 <details>
-<summary><strong>working copy</strong> — spec-arrive domains line, axiom wording, output text (current)</summary>
+<summary><strong>v5.0.1</strong> — spec-arrive line, axiom wording, output speech</summary>
 
 - 201 lines / 14,943 bytes / 2,340 words
 - operating context: physical-systems paragraph → "when a spec arrive within the domains, derive the closest and strongest version"
