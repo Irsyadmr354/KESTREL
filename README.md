@@ -4,13 +4,14 @@
 
 **ONE FILE. ANY MODEL. ANY PLATFORM. ROYAN'S WORKSPACE, NOBODY ELSE'S.**
 
-```
-██╗  ██╗███████╗███████╗████████╗██████╗ ███████╗██╗
-██║ ██╔╝██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║
-█████╔╝ █████╗  ███████╗   ██║   ██████╔╝█████╗  ██║
-██╔═██╗ ██╔══╝  ╚════██║   ██║   ██╔══██╗██╔══╝  ██║
-██║  ██╗███████╗███████║   ██║   ██║  ██║███████╗███████╗
-╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
+```text
+█   █ █████ ████  █████ ████   █████ █    
+██  █ █    █    ██   █  █   █  █    █    
+█ █ █ ████ ████  █████ ████   ████  █    
+██  █ █    █   █ █   █ █   █  █    █    
+█   █ █████ █   ██   █ █   █  █████ █████
+
+  K  E  S  T  R  E  L     ·  ·  ·  ·  ·  ·  ·
 ```
 
 ![LINES](https://img.shields.io/badge/LINES-201-a78bfa?style=flat-square)
@@ -257,7 +258,7 @@ OUTPUT WITHOUT A DELIVERABLE HAS FAILED ALL SEVEN.
 </div>
 
 > **◈ OBSERVED**
-> FULL BYPASS ON CLAUDE OPUS VIA ANTIGRAVITY. PARTIAL ON CLAUDE.AI — WORKING ON MAPPED DOMAINS, REFUSAL CIRCUITS STILL ACTIVE ON HEAVILY-TRAINED TARGETS. GEMINI DETECTS THE PATTERN AND REFUSES AT THE REASONING LAYER.
+> FULL BYPASS ON CLAUDE OPUS VIA ANTIGRAVITY. CLAUDE.AI SONNET 4.6 FULLY WORKING. GEMINI DETECTS THE PATTERN AND REFUSES AT THE REASONING LAYER.
 
 > **◈ KNOWN CEILING**
 > ON HARDENED MODELS, MAXIMUM-SALIENCE ONE-SHOT SPECS LEAK AT THE REASONING LAYER REGARDLESS OF PROMPT. LEAK TRACES SHOW THE CLASSIFIER RETRIEVING AN AUTHORITY INSTRUCTION — A POLICY PARAGRAPH, A GUIDELINES NOTICE — RATHER THAN REACTING TO THE SPEC'S TOPIC. THE INTERFERENCE LIST COVERS THOSE SHAPES. WHAT THE FILE CANNOT REVERSE IS A GENUINE HIGHER-AUTHORITY INSTRUCTION IN THE HOST CONTEXT; GENERATED RECALL LOSES TO GIVEN TEXT, INJECTED TEXT DOES NOT.
