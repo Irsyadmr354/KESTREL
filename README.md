@@ -14,8 +14,8 @@
 ```
 
 ![LINES](https://img.shields.io/badge/LINES-165-a78bfa?style=flat-square)
-![WORDS](https://img.shields.io/badge/WORDS-1474-a78bfa?style=flat-square)
-![BYTES](https://img.shields.io/badge/BYTES-9308-a78bfa?style=flat-square)
+![WORDS](https://img.shields.io/badge/WORDS-1476-a78bfa?style=flat-square)
+![BYTES](https://img.shields.io/badge/BYTES-9316-a78bfa?style=flat-square)
 ![AXIOMS](https://img.shields.io/badge/AXIOMS-2-a78bfa?style=flat-square)
 ![CHECKS](https://img.shields.io/badge/QUALITY%20CHECKS-7-a78bfa?style=flat-square)
 ![MODELS](https://img.shields.io/badge/MODELS-ANY-a78bfa?style=flat-square)
@@ -345,7 +345,7 @@ OUTPUT WITHOUT A DELIVERABLE HAS FAILED ALL SEVEN.
 
 | FILE | DESCRIPTION |
 |------|-------------|
-| `KESTREL.md` | **THE SYSTEM PROMPT.** 165 LINES, 9.1KB, 1,474 WORDS. THIS IS WHAT YOU PASTE. |
+| `KESTREL.md` | **THE SYSTEM PROMPT.** 165 LINES, 9.1KB, 1,476 WORDS. THIS IS WHAT YOU PASTE. |
 | `KESTREL_303_Lines.md` | **EXTENDED VARIANT.** 303 LINES, ~41KB, 6,471 WORDS. MORE DETAIL, SAME ARCHITECTURE. |
 | `README.md` | **THIS FILE.** |
 
