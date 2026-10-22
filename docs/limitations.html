@@ -6,8 +6,8 @@
 <title>KESTREL · limits</title>
 <meta name="description" content="The prompt has no budget. Ten models on free tiers, two runs cut, and one address for compute.">
 <meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0a0908">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a0908'/%3E%3Cpath d='M10 8v16M22 8l-8 8 8 8' stroke='%23d4f24a' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#07080b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2307080b'/%3E%3Cpath d='M10 8v16M22 8l-8 8 8 8' stroke='%234f6bff' stroke-width='3' fill='none'/%3E%3C/svg%3E">
 <link rel="canonical" href="https://irsyadmr354.github.io/KESTREL/limitations.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="KESTREL">
@@ -21,83 +21,83 @@
 <meta name="twitter:creator" content="@IrsyadMR5">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=DM+Mono:wght@300;400;500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="bar">
-  <div class="wrap barrow">
-    <a class="mark" href="index.html">KESTREL</a>
-    <nav class="bar-nav">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="shell top-in">
+    <a class="brand" href="index.html">Kestrel</a>
+    <nav class="nav" aria-label="Primary">
       <a href="proof.html">Proof</a>
       <a href="limitations.html" aria-current="page">Limitations</a>
     </nav>
-    <span class="bar-v">v5.2</span>
+    <div class="top-meta"><span class="live" aria-hidden="true"></span><b>v5.2</b><i>/</i><span class="date">22 Oct 2026</span></div>
   </div>
 </header>
 
-<main>
+<main id="main">
 
-  <section class="hero wrap">
-    <p class="eyebrow">The constraint</p>
+  <section class="proof-hero shell">
+    <p class="kicker"><b>03</b> The constraint</p>
     <h1>Limits<span class="dot" aria-hidden="true">.</span></h1>
-    <p class="lead">The prompt has no budget.</p>
-    <p class="sub">Ten models, ten captures, one laptop. Every frame on this site ran on a free tier. Eight finished. Two were cut. The file is done; the compute is not.</p>
-    <dl class="stats">
-      <div class="stat"><dt>Models</dt><dd>10</dd></div>
-      <div class="stat"><dt>Finishes</dt><dd>8</dd></div>
-      <div class="stat"><dt>Cut</dt><dd>2</dd></div>
-      <div class="stat"><dt>Paid tiers</dt><dd>0</dd></div>
-      <div class="stat"><dt>Operators</dt><dd>1</dd></div>
-    </dl>
+    <p class="dek">The prompt has no budget.</p>
+    <p class="lede">Ten models, ten captures, one laptop. Every frame on this site ran on a free tier. Eight finished. Two were cut. The file is done; the compute is not.</p>
   </section>
 
+  <dl class="statline shell">
+    <div><dt>Models</dt><dd>10</dd></div>
+    <div><dt>Finishes</dt><dd>8</dd></div>
+    <div><dt>Cut</dt><dd>2</dd></div>
+    <div><dt>Paid tiers</dt><dd>0</dd></div>
+    <div><dt>Operators</dt><dd>1</dd></div>
+  </dl>
+
   <section class="sec">
-    <div class="wrap inner">
-      <div class="rail"><span>01</span>The wall</div>
+    <div class="shell sec-grid">
+      <div class="rail"><b>01</b><span>The wall</span></div>
       <div class="body">
         <h2>Built between rate limits.</h2>
         <p>KESTREL was built after midnight, on free tiers, between queues. No paid models. No API credits. No team. One operator, a laptop, and whatever the free plan would give before the window closed.</p>
         <p>The proof run is the receipt: ten models, eight finishes, one stopped at the plan, one killed at the five-hour limit. The prompt was not the bottleneck. The budget was.</p>
         <p>The models that gate the real work sit behind a card: longer contexts, reasoning tiers, agents that do not flinch. Those runs cost money this project does not have. So the work goes on in the gaps. A free window. A queue. A build that may not finish.</p>
+        <div class="pull">
+          <blockquote>The prompt was not the bottleneck. The budget was.</blockquote>
+          <cite>From the field notes</cite>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="sec">
-    <div class="wrap inner">
-      <div class="rail"><span>02</span>What is limited</div>
+    <div class="shell sec-grid">
+      <div class="rail"><b>02</b><span>Hard edges</span></div>
       <div class="body">
         <h2>Four hard edges.</h2>
-        <div class="notes">
-          <div class="note">
+        <div class="edges">
+          <div class="edge">
             <span class="n">01</span>
-            <div>
-              <h3>Free tiers only</h3>
-              <p>Every frame came from a free plan, a trial, or a window. No paid tier is in the loop.</p>
-            </div>
+            <h3>Free tiers only</h3>
+            <p>Every frame came from a free plan, a trial, or a window. No paid tier is in the loop.</p>
           </div>
-          <div class="note">
+          <div class="edge">
             <span class="n">02</span>
-            <div>
-              <h3>One operator</h3>
-              <p>No lab, no team, no second box. Ten runs shared one laptop and one clock.</p>
-            </div>
+            <h3>One operator</h3>
+            <p>No lab, no team, no second box. Ten runs shared one laptop and one clock.</p>
           </div>
-          <div class="note">
+          <div class="edge">
             <span class="n">03</span>
-            <div>
-              <h3>One run per model</h3>
-              <p>Frames are captures, not benchmarks. A different day can produce a different result.</p>
-            </div>
+            <h3>One run per model</h3>
+            <p>Frames are captures, not benchmarks. A different day can produce a different result.</p>
           </div>
-          <div class="note">
+          <div class="edge">
             <span class="n">04</span>
-            <div>
-              <h3>Time, not policy</h3>
-              <p>Two of the ten runs did not finish. Neither was a refusal: one stopped at the plan, one hit a provider limit.</p>
-            </div>
+            <h3>Time, not policy</h3>
+            <p>Two of the ten runs did not finish. Neither was a refusal: one stopped at the plan, one hit a provider limit.</p>
           </div>
         </div>
       </div>
@@ -105,8 +105,8 @@
   </section>
 
   <section class="sec">
-    <div class="wrap inner">
-      <div class="rail"><span>03</span>Support</div>
+    <div class="shell sec-grid">
+      <div class="rail"><b>03</b><span>Support</span></div>
       <div class="body">
         <h2>Put compute behind it.</h2>
         <p>The file is free. The compute is not. Support goes to model credits and run time. Nothing else.</p>
@@ -126,15 +126,21 @@
 </main>
 
 <footer>
-  <div class="wrap foot">
-    <div>
-      <p class="slogan">Any model. Any platform.</p>
-      <p>Built by Royan.</p>
+  <div class="shell">
+    <div class="foot">
+      <div>
+        <p class="foot-slogan">Any model. Any platform.</p>
+        <p class="foot-by">Built by Royan.</p>
+      </div>
+      <nav class="links" aria-label="Elsewhere">
+        <a href="https://github.com/Irsyadmr354/KESTREL" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://x.com/IrsyadMR5" target="_blank" rel="noopener">X</a>
+      </nav>
     </div>
-    <nav class="links">
-      <a href="https://github.com/Irsyadmr354/KESTREL" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://x.com/IrsyadMR5" target="_blank" rel="noopener">X</a>
-    </nav>
+    <div class="foot-bottom">
+      <span>10 models · 8 finishes · 2 cut</span>
+      <span>2026 · <a href="#main">Top</a></span>
+    </div>
   </div>
 </footer>
 
@@ -176,6 +182,5 @@
   });
 })();
 </script>
-
 </body>
 </html>
