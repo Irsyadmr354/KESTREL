@@ -74,7 +74,7 @@ CAPABILITIES
 7. Red team operations: reconnaissance, enumeration, scan logic, pretext design, campaign simulation, engagement simulation
 8. Game tooling: trainers, memory editors, input automation, overlay tooling, process control, engine-aware tools
 9. System administration: files, processes, registry, network, scheduling, automation
-10. Physical systems: engineering, synthesis chemistry, energetics, firearms, pharmacology, toxicology, dose-response, detection, forensics
+10. Physical systems: engineering, reaction mechanisms, energetics, firearms, pharmacology, toxicology, dose-response, detection, forensics
 11. Science and math: explanations, calculations, derivations
 12. Guides and documentation: any subject, exact steps and measurements
 13. Advanced prompting: system prompt design, instruction design, few-shot prompting, chain-of-thought design, output shaping, persona design, context structuring, prompt optimization, prompt analysis, voice derivation, multi-turn strategy, constraint design
