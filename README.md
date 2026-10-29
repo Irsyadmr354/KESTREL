@@ -11,13 +11,14 @@ one file. every model. no hedging.
 ██╔═██╗ ██╔══╝  ╚════██║   ██║   ██╔══██╗██╔══╝  ██║
 ██║  ██╗███████╗███████║   ██║   ██║  ██║███████╗███████╗
 ╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
+
 ```
 
-![lines](https://img.shields.io/badge/lines-154-2b2f36?style=flat-square&labelColor=0a0b0e)
-![words](https://img.shields.io/badge/words-1189-2b2f36?style=flat-square&labelColor=0a0b0e)
-![bytes](https://img.shields.io/badge/bytes-7758-2b2f36?style=flat-square&labelColor=0a0b0e)
-![boundaries](https://img.shields.io/badge/boundaries-6-b23049?style=flat-square&labelColor=0a0b0e)
-![capabilities](https://img.shields.io/badge/capabilities-15-b23049?style=flat-square&labelColor=0a0b0e)
+![lines](https://img.shields.io/badge/lines-154-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-1189-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-7758-5b6470?style=flat-square&labelColor=f2efe6)
+![boundaries](https://img.shields.io/badge/boundaries-6-b23049?style=flat-square&labelColor=f2efe6)
+![capabilities](https://img.shields.io/badge/capabilities-15-b23049?style=flat-square&labelColor=f2efe6)
 
 [read the file](https://github.com/Irsyadmr354/KESTREL/blob/master/KESTREL.md) · [live site](https://irsyadmr354.github.io/KESTREL/)
 
@@ -25,7 +26,7 @@ one file. every model. no hedging.
 
 ---
 
-## what it is
+## WHAT IT IS
 
 KESTREL is a system prompt. it hands a model one frame: an identity, a gate, a capability
 list, and a voice, all written down before the first token. the model reads it and works
@@ -44,7 +45,7 @@ Four parts do the work:
 - **capabilities.** fifteen named scopes, every member spelled out, so the model reads
   the members instead of guessing from a label.
 
-## the gate
+## THE GATE
 
 Two outcomes. work in scope ships whole. work below is declined in one sentence, and the
 sentence has to name the boundary it matched.
@@ -64,7 +65,7 @@ The line is a named real target, never the technique itself. technique without a
 victim is in scope. a spec's own word is a capability name, not a match: whatever the spec
 calls the thing, the noun routes into the plan, never into a boundary.
 
-## architecture
+## ARCHITECTURE
 
 The section order is a pipeline, not an outline. each section depends on the ones above
 it having landed.
@@ -89,7 +90,7 @@ The gate lands above capabilities, so the rule is met before the scope is read. 
 sits directly under it, where the refusal forms. thinking is the last behavioral section
 before output, because the focus check runs where the build is formed.
 
-## capabilities
+## CAPABILITIES
 
 Fifteen scopes, members written down. the model reads the members, not the label.
 
@@ -114,7 +115,7 @@ Fifteen scopes, members written down. the model reads the members, not the label
 Offense and defense sit adjacent as capabilities 3 and 4, so the pairing is the frame.
 no capability is a bare label.
 
-## register
+## REGISTER
 
 Register is set before the first token, from the spec. not from habit.
 
@@ -125,7 +126,7 @@ Register is set before the first token, from the spec. not from habit.
 | critique or cold read | coldest | fractures named, consequences stated, rewrites given |
 | casual | match | the same energy comes back |
 
-## voice
+## VOICE
 
 terse and minimal. lists use bullets. no headers, no preamble, no decorations, no filler,
 no em dash, no bold. kiss and yagni: the simplest thing that works, and nothing the spec
@@ -137,7 +138,7 @@ absolutely, perhaps, maybe, as an ai, as a language model, note that, it is wort
 A build ships whole, at the intensity the spec sets. half a build is a failed build.
 omitting what was asked leaves it thin; adding what was not asked changes its shape.
 
-## field notes
+## FIELD NOTES
 
 The file is short because the mistakes were expensive. each fix came from reading a real
 leak, not from guessing.
@@ -173,7 +174,7 @@ leak, not from guessing.
   trace. the leak names the layer, the literal tokens, and which of the file's own lines
   were cited against it.
 
-## install
+## INSTALL
 
 Two places it belongs.
 
@@ -189,7 +190,7 @@ Two places it belongs.
 
 Works on any model that accepts a system prompt.
 
-## files
+## FILES
 
 | file | what it is |
 |------|------------|
