@@ -167,6 +167,10 @@ footer{border-top:1px solid var(--line);padding:clamp(34px,4vw,56px) 0}
 .links{display:flex;gap:22px}
 .links a{font-family:var(--mono);font-size:10.5px;letter-spacing:var(--tick);text-transform:uppercase;color:var(--faint)}
 .links a:hover{color:var(--bone)}
+.stars{display:inline-flex;align-items:baseline;gap:4px;margin-left:8px;font-size:10px;letter-spacing:.04em}
+.stars[hidden]{display:none}
+.stars .glyph{color:var(--accent)}
+.stars .num{color:var(--dim);font-variant-numeric:tabular-nums}
 .foot-bottom{display:flex;justify-content:space-between;gap:16px;margin-top:clamp(26px,3vw,40px);padding-top:14px;border-top:1px solid var(--line2);font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
 .foot-bottom a{color:var(--dim)}
 
