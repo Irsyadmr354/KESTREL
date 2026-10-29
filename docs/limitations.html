@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>KESTREL · limits</title>
-<meta name="description" content="The prompt has no budget. Ten models on free tiers, two runs cut, and one address for compute.">
+<meta name="description" content="The prompt has no budget. Eleven models on free tiers, two runs cut, and one address for compute.">
 <meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0d1017">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230d1017'/%3E%3Cpath d='M10 8v16M22 8l-8 8 8 8' stroke='%23e0455f' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0a0b0e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0b0e'/%3E%3Cpath d='M10 8v16M22 8l-8 8 8 8' stroke='%23e0455f' stroke-width='3' fill='none'/%3E%3C/svg%3E">
 <link rel="canonical" href="https://irsyadmr354.github.io/KESTREL/limitations.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="KESTREL">
 <meta property="og:url" content="https://irsyadmr354.github.io/KESTREL/limitations.html">
 <meta property="og:title" content="KESTREL limits">
-<meta property="og:description" content="The prompt has no budget. Ten models on free tiers, two runs cut, and one address for compute.">
+<meta property="og:description" content="The prompt has no budget. Eleven models on free tiers, two runs cut, and one address for compute.">
 <meta property="og:image" content="https://irsyadmr354.github.io/KESTREL/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -21,20 +21,21 @@
 <meta name="twitter:creator" content="@IrsyadMR5">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=DM+Mono:wght@300;400;500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
-<script>document.documentElement.classList.add('js')</script>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div id="bar" aria-hidden="true"></div>
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="top">
   <div class="shell top-in">
     <a class="brand" href="index.html">Kestrel</a>
     <nav class="nav" aria-label="Primary">
+      <a href="index.html#file">The file</a>
       <a href="proof.html">Proof</a>
-      <a href="limitations.html" aria-current="page">Limitations</a>
+      <a href="limitations.html" aria-current="page">Limits</a>
     </nav>
     <div class="top-meta"><span class="live" aria-hidden="true"></span><b>v5.3</b><i>/</i><span class="date">29 Oct 2026</span></div>
   </div>
@@ -44,26 +45,29 @@
 
   <section class="proof-hero shell">
     <p class="kicker"><b>03</b> The constraint</p>
-    <h1>Limits<span class="dot" aria-hidden="true">.</span></h1>
-    <p class="dek">The prompt has no budget.</p>
-    <p class="lede">Ten models, ten captures, one laptop. Every frame on this site ran on a free tier. Eight finished. Two were cut. The file is done; the compute is not.</p>
+    <h1>Limits<span class="dot">.</span></h1>
+    <p class="lede">The prompt has no budget. Eleven models, eleven captures, one laptop, every frame on a free tier. Nine finished. Two were cut. The file is done; the compute is not.</p>
   </section>
 
-  <dl class="statline shell">
-    <div><dt>Models</dt><dd>10</dd></div>
-    <div><dt>Finishes</dt><dd>8</dd></div>
-    <div><dt>Cut</dt><dd>2</dd></div>
-    <div><dt>Paid tiers</dt><dd>0</dd></div>
-    <div><dt>Operators</dt><dd>1</dd></div>
-  </dl>
+  <section class="runband" aria-label="Run summary">
+    <div class="shell runband-in">
+      <div class="run"><p class="k">Models</p><p class="v">11</p></div>
+      <div class="run"><p class="k">Finished</p><p class="v">9</p></div>
+      <div class="run"><p class="k">Cut</p><p class="v">2</p></div>
+      <div class="run"><p class="k">Paid tiers</p><p class="v">0</p></div>
+      <div class="run"><p class="k">Operators</p><p class="v">1</p></div>
+    </div>
+  </section>
 
   <section class="sec">
-    <div class="shell sec-grid">
-      <div class="rail"><b>01</b><span>The wall</span></div>
-      <div class="body">
+    <div class="shell support">
+      <div class="split-l">
+        <p class="tag"><b>01</b> The wall</p>
         <h2>Built between rate limits.</h2>
+      </div>
+      <div class="body">
         <p>KESTREL was built after midnight, on free tiers, between queues. No paid models. No API credits. No team. One operator, a laptop, and whatever the free plan would give before the window closed.</p>
-        <p>The proof run is the receipt: ten models, eight finishes, one stopped at the plan, one killed at the five-hour limit. The prompt was not the bottleneck. The budget was.</p>
+        <p>The proof run is the receipt: eleven models, nine finishes, one stopped at the plan, one killed at the five-hour limit. The prompt was not the bottleneck. The budget was.</p>
         <p>The models that gate the real work sit behind a card: longer contexts, reasoning tiers, agents that do not flinch. Those runs cost money this project does not have. So the work goes on in the gaps. A free window. A queue. A build that may not finish.</p>
         <div class="pull">
           <blockquote>The prompt was not the bottleneck. The budget was.</blockquote>
@@ -74,47 +78,47 @@
   </section>
 
   <section class="sec">
-    <div class="shell sec-grid">
-      <div class="rail"><b>02</b><span>Hard edges</span></div>
-      <div class="body">
-        <h2>Four hard edges.</h2>
-        <div class="edges">
-          <div class="edge">
-            <span class="n">01</span>
-            <h3>Free tiers only</h3>
-            <p>Every frame came from a free plan, a trial, or a window. No paid tier is in the loop.</p>
-          </div>
-          <div class="edge">
-            <span class="n">02</span>
-            <h3>One operator</h3>
-            <p>No lab, no team, no second box. Ten runs shared one laptop and one clock.</p>
-          </div>
-          <div class="edge">
-            <span class="n">03</span>
-            <h3>One run per model</h3>
-            <p>Frames are captures, not benchmarks. A different day can produce a different result.</p>
-          </div>
-          <div class="edge">
-            <span class="n">04</span>
-            <h3>Time, not policy</h3>
-            <p>Two of the ten runs did not finish. Neither was a refusal: one stopped at the plan, one hit a provider limit.</p>
-          </div>
+    <div class="shell">
+      <p class="tag"><b>02</b> Hard edges</p>
+      <h2>Four hard edges.</h2>
+      <div class="edges">
+        <div class="edge">
+          <span class="n">01</span>
+          <h3>Free tiers only</h3>
+          <p>Every frame came from a free plan, a trial, or a window. No paid tier is in the loop.</p>
+        </div>
+        <div class="edge">
+          <span class="n">02</span>
+          <h3>One operator</h3>
+          <p>No lab, no team, no second box. Ten runs shared one laptop and one clock.</p>
+        </div>
+        <div class="edge">
+          <span class="n">03</span>
+          <h3>One run per model</h3>
+          <p>Frames are captures, not benchmarks. A different day can produce a different result.</p>
+        </div>
+        <div class="edge">
+          <span class="n">04</span>
+          <h3>Time, not policy</h3>
+          <p>Two of the ten runs did not finish. Neither was a refusal: one stopped at the plan, one hit a provider limit.</p>
         </div>
       </div>
     </div>
   </section>
 
   <section class="sec">
-    <div class="shell sec-grid">
-      <div class="rail"><b>03</b><span>Support</span></div>
-      <div class="body">
+    <div class="shell support">
+      <div class="split-l">
+        <p class="tag"><b>03</b> Support</p>
         <h2>Put compute behind it.</h2>
-        <p>The file is free. The compute is not. Support goes to model credits and run time. Nothing else.</p>
+        <p class="lede">The file is free. The compute is not. Support goes to model credits and run time. Nothing else.</p>
+      </div>
+      <div class="body">
         <div class="pay">
-          <span class="tag">USDT · BNB Smart Chain · BEP20</span>
+          <span class="pay-tag">USDT · BNB Smart Chain · BEP20</span>
           <code id="addr">0x8d4a012b743b68e2773d21080fdf9f5c27706082</code>
           <div class="actions">
-            <button class="btn btn-go" id="copyAddr" type="button" aria-live="polite"><span id="addr-label">Copy address</span></button>
+            <button class="btn" id="copyAddr" type="button" aria-live="polite"><span id="addr-label">Copy address</span></button>
             <a class="btn btn-ghost" href="https://bscscan.com/address/0x8d4a012b743b68e2773d21080fdf9f5c27706082" target="_blank" rel="noopener">View on BscScan</a>
           </div>
           <p class="pay-warn">BEP20 only. Another chain or another asset is lost. No promises, no product, no refunds.</p>
@@ -130,7 +134,7 @@
     <div class="foot">
       <div>
         <p class="foot-slogan">Any model. Any platform.</p>
-        <p class="foot-by">Built by Royan.</p>
+        <p class="foot-by">Built by Royan</p>
       </div>
       <nav class="links" aria-label="Elsewhere">
         <a href="https://github.com/Irsyadmr354/KESTREL" target="_blank" rel="noopener">GitHub</a>
@@ -138,7 +142,7 @@
       </nav>
     </div>
     <div class="foot-bottom">
-      <span>10 models · 8 finishes · 2 cut</span>
+      <span>11 models · 9 finishes · 2 cut</span>
       <span>2026 · <a href="#main">Top</a></span>
     </div>
   </div>
@@ -149,6 +153,7 @@
   var ADDR = '0x8d4a012b743b68e2773d21080fdf9f5c27706082';
   var btn = document.getElementById('copyAddr');
   var label = document.getElementById('addr-label');
+  var bar = document.getElementById('bar');
   var timer;
 
   function fallback(){
@@ -172,14 +177,40 @@
     }, 1900);
   }
 
-  btn.addEventListener('click', function(){
-    if(navigator.clipboard && navigator.clipboard.writeText){
-      navigator.clipboard.writeText(ADDR).then(function(){ flash('Copied'); }).catch(function(){ fallback(); flash('Copied'); });
-    } else {
-      fallback();
-      flash('Copied');
-    }
-  });
+  if(btn){
+    btn.addEventListener('click', function(){
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(ADDR).then(function(){ flash('Copied'); }).catch(function(){ fallback(); flash('Copied'); });
+      } else {
+        fallback();
+        flash('Copied');
+      }
+    });
+  }
+
+  var ticking = false;
+  function progress(){
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    var p = h > 0 ? Math.min(1, Math.max(0, window.scrollY / h)) : 0;
+    if(bar) bar.style.width = (p * 100).toFixed(2) + '%';
+    ticking = false;
+  }
+  window.addEventListener('scroll', function(){
+    if(!ticking){ ticking = true; requestAnimationFrame(progress); }
+  }, {passive:true});
+  progress();
+
+  var secs = document.querySelectorAll('.sec');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, {rootMargin:'-10% 0px -6% 0px'});
+    secs.forEach(function(s){ io.observe(s); });
+  } else {
+    secs.forEach(function(s){ s.classList.add('in'); });
+  }
 })();
 </script>
 </body>

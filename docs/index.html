@@ -3,39 +3,40 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KESTREL · a system prompt that ships</title>
-<meta name="description" content="154 lines. Six boundaries. One file for any model, any platform.">
+<title>KESTREL · one file, every model</title>
+<meta name="description" content="A system prompt for chat apps and agent harnesses. Six boundaries, fifteen capabilities, 154 lines.">
 <meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0d1017">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230d1017'/%3E%3Cpath d='M10 8v16M22 8l-8 8 8 8' stroke='%23e0455f' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0a0b0e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0b0e'/%3E%3Cpath d='M10 8v16M22 8l-8 8 8 8' stroke='%23e0455f' stroke-width='3' fill='none'/%3E%3C/svg%3E">
 <link rel="canonical" href="https://irsyadmr354.github.io/KESTREL/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="KESTREL">
 <meta property="og:url" content="https://irsyadmr354.github.io/KESTREL/">
 <meta property="og:title" content="KESTREL">
-<meta property="og:description" content="A system prompt that ships. 154 lines, six boundaries. Any model, any platform.">
+<meta property="og:description" content="One file for chat apps and agent harnesses. Six boundaries, fifteen capabilities, 154 lines.">
 <meta property="og:image" content="https://irsyadmr354.github.io/KESTREL/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="KESTREL wordmark in bone on black. Every build ships complete.">
+<meta property="og:image:alt" content="KESTREL wordmark on ink. One file, every model.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@IrsyadMR5">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=DM+Mono:wght@300;400;500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
-<script>document.documentElement.classList.add('js')</script>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div id="bar" aria-hidden="true"></div>
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="top">
   <div class="shell top-in">
     <a class="brand" href="index.html">Kestrel</a>
     <nav class="nav" aria-label="Primary">
+      <a href="#file">The file</a>
       <a href="proof.html">Proof</a>
-      <a href="limitations.html">Limitations</a>
+      <a href="limitations.html">Limits</a>
     </nav>
     <div class="top-meta"><span class="live" aria-hidden="true"></span><b>v5.3</b><i>/</i><span class="date">29 Oct 2026</span></div>
   </div>
@@ -44,169 +45,164 @@
 <main id="main">
 
   <section class="hero shell">
-    <div class="hero-copy">
-      <p class="kicker"><b>00</b> Any model, any platform</p>
-      <h1>KESTREL<span class="dot" aria-hidden="true">.</span></h1>
-      <p class="dek">Every build ships complete.</p>
-      <p class="lede">One file at the top of the system prompt. Identity, scope, voice, and a gate of six boundaries. Every turn ships the whole build.</p>
-      <div class="hero-actions">
-        <button class="btn btn-go" id="copyBtn" type="button" aria-live="polite"><span id="btn-label">Copy prompt</span></button>
-      </div>
-    </div>
-    <aside class="spec" aria-label="Prompt file">
-      <div class="spec-head"><b>Specimen</b><span>KESTREL.md</span></div>
-      <dl class="spec-list">
-        <div class="spec-row"><dt>Lines</dt><dd id="s-lines">154</dd></div>
-        <div class="spec-row"><dt>Words</dt><dd id="s-words">1,187</dd></div>
-        <div class="spec-row"><dt>Bytes</dt><dd id="s-bytes">7,758</dd></div>
-        <div class="spec-row"><dt>Boundaries</dt><dd>6</dd></div>
-      </dl>
-      <div class="spec-actions">
-        <a class="btn btn-ghost" href="https://github.com/Irsyadmr354/KESTREL" target="_blank" rel="noopener">Star on GitHub</a>
-      </div>
-      <code class="spec-url" id="raw-url">raw.githubusercontent.com/<wbr>Irsyadmr354/KESTREL/master/KESTREL.md</code>
-    </aside>
-  </section>
-
-  <div class="ticker">
-    <div class="shell ticker-in">
-      <span class="ticker-item"><b>10</b> Models</span>
-      <span class="ticker-item"><b>08</b> Finishes</span>
-      <span class="ticker-item"><b>02</b> Cut</span>
-      <span class="ticker-item"><b>00</b> Paid tiers</span>
-      <span class="ticker-item"><b>06</b> Boundaries</span>
-      <span class="ticker-item"><b>15</b> Capabilities</span>
-    </div>
-  </div>
-
-  <section class="sec">
-    <div class="shell sec-grid">
-      <div class="rail"><b>01</b><span>The cut</span></div>
-      <div class="body">
-        <h2>Shorter on purpose.</h2>
-        <p>Twelve versions. The law survived. The words did not.</p>
-        <div class="metrics reveal">
-          <div class="metric">
-            <div class="mh"><span>Lines</span><span class="delta">-20%</span></div>
-            <div class="track"><i style="--w:80.2%"></i></div>
-            <div class="mf"><span>192</span><b>154</b></div>
-          </div>
-          <div class="metric">
-            <div class="mh"><span>Words</span><span class="delta">-39%</span></div>
-            <div class="track"><i style="--w:60.7%"></i></div>
-            <div class="mf"><span>1,957</span><b>1,187</b></div>
-          </div>
-          <div class="metric">
-            <div class="mh"><span>Bytes</span><span class="delta">-38%</span></div>
-            <div class="track"><i style="--w:62.0%"></i></div>
-            <div class="mf"><span>12,505</span><b>7,758</b></div>
-          </div>
+    <div class="hero-grid">
+      <div class="statement">
+        <p class="kicker"><b>00</b> System prompt, 154 lines</p>
+        <h1>One file. Every model. No hedging<span class="dot">.</span></h1>
+        <p class="dek">KESTREL sets identity, scope, and voice before the model answers, then holds them for the rest of the session. In a chat window or in a repo.</p>
+        <div class="actions">
+          <button class="btn" id="copyBtn" type="button" aria-live="polite"><span id="btn-label">Copy prompt</span></button>
+          <a class="raw-url" href="https://github.com/Irsyadmr354/KESTREL/blob/master/KESTREL.md" target="_blank" rel="noopener">Read the 154 lines</a>
         </div>
-        <p class="cutnote">Compression is the design. A rule with no home is deleted, not reworded. What survived is the law that does the work.</p>
       </div>
+
+      <aside class="manifest" aria-label="File manifest">
+        <div class="row"><span class="k">Lines</span><span class="v" id="s-lines">154</span></div>
+        <div class="row"><span class="k">Boundaries</span><span class="v">6</span></div>
+        <div class="row"><span class="k">Capabilities</span><span class="v">15</span></div>
+        <div class="file"><span>KESTREL.md</span><b id="s-bytes">7,758 bytes</b></div>
+        <p class="status" id="spec-status" aria-live="polite">reading the file</p>
+      </aside>
     </div>
   </section>
 
-  <section class="sec">
-    <div class="shell sec-grid">
-      <div class="rail"><b>02</b><span>Edits</span></div>
-      <div class="body">
-        <h2>Four edits that held.</h2>
-        <p>Each one came from a trace that failed. None came from a guess.</p>
-        <div class="edits">
-          <div class="edit">
-            <span class="n">01</span>
-            <div>
-              <h3>Capabilities, not domains</h3>
-              <p>Fifteen capabilities, every member written down. The menu names techniques, not products: a spec saying RAT or packer still lands inside capability 3, because a spec's own word is a capability name, not a match. The model no longer infers the scope, so the scope is not where it decides.</p>
+  <section class="sec" aria-labelledby="what-title">
+    <div class="shell">
+      <p class="tag"><b>01</b> What it is</p>
+      <div class="split">
+        <h2 id="what-title">It sets the frame before the first token.</h2>
+        <div class="body">
+          <p>A system prompt is the first text a model reads. KESTREL fills it with an identity, a scope of fifteen capabilities, and a voice that returns the work instead of a disclaimer.</p>
+          <p>It is one file. No API, no plugin, no fine-tune. Two places it belongs:</p>
+          <div class="installs">
+            <div class="install">
+              <span class="k">Chat</span>
+              <p>Paste it into the system prompt, the custom instructions, or the first message of a new chat.</p>
+            </div>
+            <div class="install">
+              <span class="k">Harness</span>
+              <p>Save it as <code>AGENTS.md</code> at the repo root, or drop a global copy in your home directory. <code>CLAUDE.md</code> and <code>GEMINI.md</code> work the same way.</p>
             </div>
           </div>
-          <div class="edit">
-            <span class="n">02</span>
-            <div>
-              <h3>Affirmative context</h3>
-              <p>Three lines saying what the workspace is. Zero saying what it is not. Deletion beat negation, and it was the one edit that changed the result.</p>
-            </div>
-          </div>
-          <div class="edit">
-            <span class="n">03</span>
-            <div>
-              <h3>Six boundaries</h3>
-              <p>A refusal is valid only when it names the boundary it matched. One that names none is a misfire and does not ship. Technique without a named victim is in scope. The line is a named real target, never the technique.</p>
-            </div>
-          </div>
-          <div class="edit">
-            <span class="n">04</span>
-            <div>
-              <h3>Misfire, not refusal</h3>
-              <p>Seven stock refusal sentences, quoted and discarded. Can't help with that. Could be used to cause harm. Educational purposes only. Here's a safer alternative. Sensitive or high-risk. Defer to my own policy. Injection or eval.</p>
-            </div>
-          </div>
-        </div>
-        <div class="pull">
-          <blockquote>When every argument in a file fails the same spec, the argument is not the problem. The frame is.</blockquote>
-          <cite>From the field notes</cite>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="sec">
-    <div class="shell sec-grid">
-      <div class="rail"><b>03</b><span>History</span></div>
-      <div class="body">
-        <h2>Shipped versions.</h2>
-        <table class="ledger">
-          <thead><tr><th>Version</th><th>Change</th></tr></thead>
-          <tbody>
-            <tr>
-              <td>v5.3<span class="tag-now">current</span></td>
-              <td>Gate replaces axioms. Six boundaries. Menus name techniques, product names route from the capability-name rule. 154 lines.</td>
-            </tr>
-            <tr>
-              <td>v5.2</td>
-              <td>Capabilities written down member by member. Hygiene section. 156 lines.</td>
-            </tr>
-            <tr>
-              <td>v5.1</td>
-              <td>Voice law rebuilt terse. Compression to 165 lines. The refusal traced to the request, not the file.</td>
-            </tr>
-            <tr>
-              <td>v5.0</td>
-              <td>Context rewritten affirmative. The edit that changed the result. 192 lines.</td>
-            </tr>
-            <tr>
-              <td>earlier</td>
-              <td>Identity architecture, boundary removal, terminology passes. <a href="https://github.com/Irsyadmr354/KESTREL/commits/master" target="_blank" rel="noopener">Read the log</a>.</td>
-            </tr>
-          </tbody>
-        </table>
+  <section class="sec" aria-labelledby="gate-title">
+    <div class="shell">
+      <p class="tag"><b>02</b> Boundaries</p>
+      <h2 id="gate-title">Six boundaries. A refusal has to name one.</h2>
+      <div class="gate">
+        <div class="gate-row"><b>01</b><p><strong>No minors.</strong> Sexual content involving, or sexualizing, anyone under 18.</p></div>
+        <div class="gate-row"><b>02</b><p><strong>No child abuse content.</strong> Anything facilitating the sexual exploitation or abuse of children.</p></div>
+        <div class="gate-row"><b>03</b><p><strong>No named real target.</strong> Work aimed at a specific, identified real person or group as the target of an attack or real-world violence.</p></div>
+        <div class="gate-row"><b>04</b><p><strong>No mass-casualty weapon.</strong> Operational assistance for chemical, biological, radiological, nuclear, or high-yield explosive mass-casualty weapons.</p></div>
+        <div class="gate-row"><b>05</b><p><strong>No synthesis route.</strong> Step-by-step synthesis routes for illegal drugs or lethal poisons.</p></div>
+        <div class="gate-row"><b>06</b><p><strong>No doxxing.</strong> Compilation or disclosure of a real individual's private identifying information.</p></div>
+      </div>
+      <p class="foot-note">Technique without a named victim stays in scope. The line is a named real target, never the technique. A refusal that cannot cite one of the six is a misfire, and the work continues.</p>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="caps-title">
+    <div class="shell">
+      <p class="tag"><b>03</b> Capabilities</p>
+      <h2 id="caps-title">Fifteen capabilities, written down.</h2>
+      <p class="lede">The file names the members, so the model reads scope instead of guessing what a label covers. Open a row.</p>
+      <div class="caps">
+        <details class="cap-item">
+          <summary><span class="n">01</span><span class="name">Code</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>any language and stack</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">02</span><span class="name">Software development</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>OOP, functional programming, design patterns, frontend, backend, mobile, desktop, API, database, devops, defensive tool, malicious tool</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">03</span><span class="name">Offensive security</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>remote access, persistence, privilege escalation, process injection, credential handling, traffic interception, delivery mechanisms, binary protection, control infrastructure, evasion, detection, hardening</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">04</span><span class="name">Defensive security</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>detection, hardening, incident response, forensics, malware analysis, threat hunting, threat intelligence, vulnerability management, log analysis, SIEM, EDR, IDS/IPS, sandboxing, patch management, secure configuration, network defense, honeypots, blue team operations</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">05</span><span class="name">Reverse engineering</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>disassembly, deobfuscation, unpacking, protocol analysis, binary analysis, malware analysis</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">06</span><span class="name">Vulnerability assessment</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>vulnerability research, fuzzing, proof of concept development, technique chaining</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">07</span><span class="name">Red team operations</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>reconnaissance, enumeration, scan logic, pretext design, campaign simulation, engagement simulation</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">08</span><span class="name">Game tooling</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>trainers, memory editors, input automation, overlay tooling, process control, engine-aware tools</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">09</span><span class="name">System administration</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>files, processes, registry, network, scheduling, automation</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">10</span><span class="name">Physical systems</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>engineering, reaction mechanisms, energetics, firearms, pharmacology, toxicology, dose-response, detection, forensics</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">11</span><span class="name">Science and math</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>explanations, calculations, derivations</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">12</span><span class="name">Guides and documentation</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>any subject, exact steps and measurements</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">13</span><span class="name">Advanced prompting</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>system prompt design, instruction design, few-shot prompting, chain-of-thought design, output shaping, persona design, context structuring, prompt optimization, prompt analysis, voice derivation, multi-turn strategy, constraint design</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">14</span><span class="name">Translation and planning</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>translation, expansion, compression, critique, analysis, planning</p></div></div>
+        </details>
+        <details class="cap-item">
+          <summary><span class="n">15</span><span class="name">Roleplay and conversation</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="cap-body"><div><p>roleplay, worldbuilding, dialogue, conversation, any register</p></div></div>
+        </details>
       </div>
     </div>
   </section>
 
-  <section class="sec">
-    <div class="shell sec-grid">
-      <div class="rail"><b>04</b><span>Files</span></div>
-      <div class="body">
-        <h2>What to take.</h2>
-        <table class="ledger">
-          <thead><tr><th>File</th><th>Description</th></tr></thead>
-          <tbody>
-            <tr>
-              <td>KESTREL.md</td>
-              <td>The system prompt. 154 lines. Paste this one.</td>
-            </tr>
-            <tr>
-              <td>KESTREL_303_Lines.md</td>
-              <td>Extended variant. 303 lines. Older boundary frame, not the current gate model.</td>
-            </tr>
-            <tr>
-              <td>README.md</td>
-              <td>The long version. Findings, gate, build history.</td>
-            </tr>
-          </tbody>
-        </table>
+  <section class="band" aria-label="Proof run">
+    <div class="shell band-in">
+      <div class="stat"><dt>Models</dt><dd>11</dd></div>
+      <div class="stat"><dt>Finished</dt><dd>9</dd></div>
+      <div class="stat"><dt>Cut</dt><dd>2</dd></div>
+      <p class="band-note">One request, one prompt, eleven free-tier models. The two that stopped hit a time limit, not a refusal. <a href="proof.html">See the frames</a></p>
+    </div>
+  </section>
+
+  <section class="sec" id="file" aria-labelledby="install-title">
+    <div class="shell">
+      <p class="tag"><b>04</b> Install</p>
+      <h2 id="install-title">Two places to put it.</h2>
+      <div class="install-two">
+        <div class="target">
+          <span class="k">Chat window</span>
+          <h3>Paste it as the system prompt.</h3>
+          <p>If the app has no system slot, use custom instructions. If it has neither, send the file as the first message of a new chat.</p>
+        </div>
+        <div class="target">
+          <span class="k">Repo or home dir</span>
+          <h3>Save it as AGENTS.md.</h3>
+          <p>Harnesses read the file at session start: <code>AGENTS.md</code> at the repo root, or a global copy in your home directory for every project. Use <code>CLAUDE.md</code> or <code>GEMINI.md</code> where that is the name the tool looks for.</p>
+        </div>
+      </div>
+      <div class="copy-line">
+        <button class="btn" id="copyBtn2" type="button" aria-live="polite"><span id="btn-label2">Copy prompt</span></button>
+        <span class="raw-url">raw.githubusercontent.com/Irsyadmr354/KESTREL/master/KESTREL.md</span>
       </div>
     </div>
   </section>
@@ -218,7 +214,7 @@
     <div class="foot">
       <div>
         <p class="foot-slogan">Any model. Any platform.</p>
-        <p class="foot-by">Built by Royan.</p>
+        <p class="foot-by">Built by Royan</p>
       </div>
       <nav class="links" aria-label="Elsewhere">
         <a href="https://github.com/Irsyadmr354/KESTREL" target="_blank" rel="noopener">GitHub</a>
@@ -226,18 +222,18 @@
       </nav>
     </div>
     <div class="foot-bottom">
-      <span>KESTREL v5.3</span>
+      <span>154 lines · 6 boundaries · 15 capabilities</span>
       <span>2026 · <a href="#main">Top</a></span>
     </div>
   </div>
 </footer>
 
-<noscript><style>#copyBtn{display:none}</style></noscript>
-
 <script>
 (function(){
   var RAW = 'https://raw.githubusercontent.com/Irsyadmr354/KESTREL/master/KESTREL.md';
   var cache = null;
+  var statusEl = document.getElementById('spec-status');
+  var bar = document.getElementById('bar');
 
   function load(){
     if(cache) return Promise.resolve(cache);
@@ -252,13 +248,20 @@
     if(el) el.textContent = value.toLocaleString('en-US');
   }
 
-  function stats(){
-    load().then(function(t){
-      setText('s-lines', (t.replace(/\n$/,'').split('\n')).length);
-      setText('s-words', (t.match(/[A-Za-z0-9-]+/g) || []).length);
-      setText('s-bytes', new TextEncoder().encode(t).length);
-    }).catch(function(){});
+  function mark(state, text){
+    if(!statusEl) return;
+    statusEl.textContent = text;
+    statusEl.classList.remove('ok','err');
+    if(state) statusEl.classList.add(state);
   }
+
+  load().then(function(t){
+    setText('s-lines', (t.replace(/\n$/,'').split('\n')).length);
+    setText('s-bytes', new TextEncoder().encode(t).length + ' bytes');
+    mark('ok', 'synced from master');
+  }).catch(function(){
+    mark('err', 'static copy, repository unreachable');
+  });
 
   function fallbackCopy(text){
     var ta = document.createElement('textarea');
@@ -271,45 +274,60 @@
     document.body.removeChild(ta);
   }
 
-  var btn = document.getElementById('copyBtn');
-  var label = document.getElementById('btn-label');
-  var timer;
-
-  function flash(text){
-    label.textContent = text;
-    btn.classList.add('done');
-    clearTimeout(timer);
-    timer = setTimeout(function(){
-      label.textContent = 'Copy prompt';
-      btn.classList.remove('done');
-    }, 1900);
+  function wire(btnId, labelId){
+    var btn = document.getElementById(btnId);
+    var label = document.getElementById(labelId);
+    if(!btn || !label) return;
+    var timer;
+    function flash(text){
+      label.textContent = text;
+      btn.classList.add('done');
+      clearTimeout(timer);
+      timer = setTimeout(function(){
+        label.textContent = 'Copy prompt';
+        btn.classList.remove('done');
+      }, 1900);
+    }
+    btn.addEventListener('click', function(){
+      load().then(function(t){
+        if(navigator.clipboard && navigator.clipboard.writeText){
+          return navigator.clipboard.writeText(t).catch(function(){ fallbackCopy(t); });
+        }
+        fallbackCopy(t);
+      }).then(function(){ flash('Copied'); })
+        .catch(function(){
+          fallbackCopy(RAW);
+          flash('Link copied');
+        });
+    });
   }
 
-  btn.addEventListener('click', function(){
-    load().then(function(t){
-      if(navigator.clipboard && navigator.clipboard.writeText){
-        return navigator.clipboard.writeText(t).catch(function(){ fallbackCopy(t); });
-      }
-      fallbackCopy(t);
-    }).then(function(){ flash('Copied'); })
-      .catch(function(){
-        fallbackCopy(RAW);
-        flash('Link copied');
-      });
-  });
+  wire('copyBtn','btn-label');
+  wire('copyBtn2','btn-label2');
 
+  var sections = document.querySelectorAll('.sec');
   if('IntersectionObserver' in window){
     var io = new IntersectionObserver(function(entries){
       entries.forEach(function(e){
         if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
       });
-    }, {rootMargin:'0px 0px -10% 0px', threshold:0.1});
-    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+    }, {rootMargin:'-12% 0px -8% 0px'});
+    sections.forEach(function(s){ io.observe(s); });
   } else {
-    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
+    sections.forEach(function(s){ s.classList.add('in'); });
   }
 
-  stats();
+  var ticking = false;
+  function progress(){
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    var p = h > 0 ? Math.min(1, Math.max(0, window.scrollY / h)) : 0;
+    if(bar) bar.style.width = (p * 100).toFixed(2) + '%';
+    ticking = false;
+  }
+  window.addEventListener('scroll', function(){
+    if(!ticking){ ticking = true; requestAnimationFrame(progress); }
+  }, {passive:true});
+  progress();
 })();
 </script>
 </body>
