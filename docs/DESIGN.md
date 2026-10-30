@@ -44,5 +44,5 @@ Reason: energy 3 because the first screen should hit at full size. Rhythm 3 beca
 - Square corners. Rules, scale, and whitespace separate everything.
 - Mono is for machine text, never for long prose.
 - Motion only where it reports state: progress, section entry, counters, row expansion, rail tracking. The cursor blinks four times and stops.
-- No invented numbers. 154 lines, 6 boundaries, 15 capabilities, 13 models, 10 finishes, 3 cut.
+- No invented numbers. 154 lines, 6 boundaries, 15 capabilities, 14 models, 11 finishes, 3 cut.
 - Copy names the two real install targets: a chat app system prompt, or AGENTS.md in a repo.

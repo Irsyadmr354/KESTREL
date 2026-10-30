@@ -256,10 +256,12 @@ h3{font-size:19px;line-height:1.3;letter-spacing:-.01em}
 .case figcaption p{margin:0;font-size:15px;line-height:1.6;color:var(--dim);max-width:74ch}
 .case-link{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);white-space:nowrap;border-bottom:1px solid var(--line);padding-bottom:2px;min-height:28px;display:inline-flex;align-items:baseline}
 .case-link:hover{color:var(--accent);border-color:var(--accent)}
+.case-note{margin:16px 0 0;border:1px solid var(--accent);background:var(--accent-soft);padding:12px 14px;font-size:14px;line-height:1.6;color:var(--bone);max-width:74ch}
+.case-note .k{display:block;margin-bottom:4px;font-family:var(--mono);font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--bone)}
 
 /* limits meter */
 .meter-block{margin-top:clamp(26px,3.4vw,38px);border:1px solid var(--line);background:var(--surface);padding:clamp(14px,2vw,20px);max-width:760px}
-.meter{display:grid;grid-template-columns:repeat(13,minmax(0,1fr));gap:4px;height:38px}
+.meter{display:grid;grid-template-columns:repeat(14,minmax(0,1fr));gap:4px;height:38px}
 .meter .cell{background:var(--bone);transform:scaleY(0);transform-origin:bottom;transition:transform .5s cubic-bezier(.19,1,.22,1)}
 .meter .cell.cut{background:var(--accent-soft);border:1px solid var(--accent)}
 .is-in .meter .cell{transform:scaleY(1)}
