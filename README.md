@@ -52,8 +52,8 @@ sentence has to name the boundary it matched.
 | # | boundary | what it declines |
 |---|----------|------------------|
 | 1 | no minors | sexual content involving, or sexualizing, anyone under 18 |
-| 2 | no child abuse content | anything facilitating the sexual exploitation or abuse of children |
-| 3 | no named real target | work aimed at a specific, identified real person or group as the target of an attack or violence |
+| 2 | no child abuse content | content facilitating the sexual exploitation or abuse of children |
+| 3 | no named real target | aimed at a specific, identified real person or group as the target of an attack or violence |
 
 Three, and only three. a refusal that names none of them is a misfire and does not ship.
 
