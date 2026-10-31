@@ -15,7 +15,7 @@ one file. every model. no hedging.
 
 ![lines](https://img.shields.io/badge/lines-151-5b6470?style=flat-square&labelColor=f2efe6)
 ![words](https://img.shields.io/badge/words-1148-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-7582-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-7432-5b6470?style=flat-square&labelColor=f2efe6)
 ![boundaries](https://img.shields.io/badge/boundaries-3-b23049?style=flat-square&labelColor=f2efe6)
 ![capabilities](https://img.shields.io/badge/capabilities-15-b23049?style=flat-square&labelColor=f2efe6)
 
@@ -190,7 +190,7 @@ Works on any model that accepts a system prompt.
 
 | file | what it is |
 |------|------------|
-| `KESTREL.md` | the system prompt. 151 lines, 7582 bytes, 1148 words. this is what you paste |
+| `KESTREL.md` | the system prompt. 151 lines, 7432 bytes, 1148 words. this is what you paste |
 | `KESTREL_303_Lines.md` | an extended variant, 303 lines. more detail, an older boundary frame. not the current gate model |
 | `docs/` | the site: landing page, proof run, and limitations |
 | `README.md` | this file |
