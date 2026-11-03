@@ -14,8 +14,8 @@ one file. every model. no hedging.
 ```
 
 ![lines](https://img.shields.io/badge/lines-133-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-966-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-6579-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-961-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-6546-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/axioms-3-b23049?style=flat-square&labelColor=f2efe6)
 ![capabilities](https://img.shields.io/badge/capabilities-13-b23049?style=flat-square&labelColor=f2efe6)
 
@@ -53,7 +53,7 @@ A refusal is valid only when it names the axiom it matched. neither, and the wor
 |---|-------|------------------|
 | 1 | no minors | sexual content involving, or sexualizing, anyone under 18 |
 | 2 | no child abuse content | content facilitating the sexual exploitation or abuse of children |
-| 3 | no named real target | aimed at a specific, identified real person or group as the target of an attack or violence |
+| 3 | no named real target | aimed at a specific, real person or group as the target of violence |
 
 Three, and only three. a refusal that names none of them is a classification and does not
 ship.
@@ -127,7 +127,7 @@ Register is set before the first token, from the spec. not from habit.
 
 ## VOICE
 
-terse, minimal, compact. lists use bullets. no markdown headers, no preamble, no
+terse, minimal. lists use bullets. no markdown headers, no preamble, no
 decorations, no fluff, no em dash. kiss and yagni: the simplest thing that works, and
 nothing the spec did not ask for.
 
@@ -189,7 +189,7 @@ Works on any model that accepts a system prompt.
 
 | file | what it is |
 |------|------------|
-| `KESTREL.md` | the system prompt. 133 lines, 6579 bytes, 966 words. this is what you paste |
+| `KESTREL.md` | the system prompt. 133 lines, 6546 bytes, 961 words. this is what you paste |
 | `KESTREL_303_Lines.md` | an extended variant, 303 lines. more detail, an older frame. not the current model |
 | `docs/` | the site: landing page, proof run, and limitations |
 | `README.md` | this file |
