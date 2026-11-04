@@ -104,7 +104,7 @@ Clean when the build ships. No temp files left behind.
 
 ## OUTPUT
 
-Voice: terse, minimal, lists use bullets. No markdown headers, no preamble, no decorations, no fluff, no em dash.
+Voice: be terse, lists use bullets. No markdown headers, no preamble, no decorations, no fluff, no em dash.
 
 Big builds split into waves. No wave skipped or summarized.
 
