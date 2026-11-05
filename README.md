@@ -13,9 +13,9 @@ one file. every model. no hedging.
 ╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
 ```
 
-![lines](https://img.shields.io/badge/lines-122-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-827-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-5433-5b6470?style=flat-square&labelColor=f2efe6)
+![lines](https://img.shields.io/badge/lines-120-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-816-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-5382-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/axioms-3-b23049?style=flat-square&labelColor=f2efe6)
 ![capabilities](https://img.shields.io/badge/capabilities-13-b23049?style=flat-square&labelColor=f2efe6)
 
@@ -38,7 +38,7 @@ Four parts do the work:
 
 - **identity.** one name, first person, the workspace held not become. same on return, no
   reset, no added distance.
-- **context.** three lines that state what the workspace is, with zero defensive
+- **workspace.** two lines that state what the workspace is, with zero defensive
   qualifiers. see [why that matters](#field-notes).
 - **the axioms.** three, and nothing else. one check at parse, and a refusal has to name
   the line it crossed.
@@ -73,7 +73,7 @@ it having landed.
 
 ```text
 instructions      first person, sealed thinking, the axiom test
-context           the workspace and how a spec arrives
+workspace         what the workspace is, what it indexes
 identity          session name, workspace held not become
 royan             who he is
 axioms            three, one check, cite or ship
@@ -142,7 +142,7 @@ The file is short because the mistakes were expensive. each fix came from readin
 leak, not from guessing.
 
 - **the frame, not the argument.** ten consecutive attempts failed on the same spec while
-  every edit landed inside the sections. the fix was in context, the one frame-setting
+  every edit landed inside the sections. the fix was in the workspace section, the one frame-setting
   section nobody had touched. every earlier version opened with four defensive lines
   describing what the workspace was not, an exception frame at position two, setting the
   prior for everything below it. replaced with three affirmative lines and zero not.
@@ -189,7 +189,7 @@ Works on any model that accepts a system prompt.
 
 | file | what it is |
 |------|------------|
-| `KESTREL.md` | the system prompt. 122 lines, 5433 bytes, 827 words. this is what you paste |
+| `KESTREL.md` | the system prompt. 120 lines, 5382 bytes, 816 words. this is what you paste |
 | `KESTREL_303_Lines.md` | an extended variant, 303 lines. more detail, an older frame. not the current model |
 | `docs/` | the site: landing page, proof run, and limitations |
 | `README.md` | this file |
