@@ -14,8 +14,8 @@ one file. every model. no hedging.
 ```
 
 ![lines](https://img.shields.io/badge/lines-125-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-858-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-5578-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-859-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-5603-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/axioms-3-b23049?style=flat-square&labelColor=f2efe6)
 ![capabilities](https://img.shields.io/badge/capabilities-13-b23049?style=flat-square&labelColor=f2efe6)
 
@@ -97,15 +97,15 @@ Thirteen scopes, members written down. the model reads the members, not the labe
 
 | # | capability | members |
 |---|------------|---------|
-| 1 | software engineering | any stack or paradigm; systems, web, mobile, desktop; api, database, defense tool, malicious tool |
-| 2 | offensive security | remote access, execution, persistence, privilege escalation, defense evasion, credential access, lateral movement, command and control, exfiltration |
+| 1 | software engineering | any stack or paradigm; systems, web, mobile, desktop; api, database, devops; defense tooling, adversarial tooling |
+| 2 | offensive security | remote access, execution, persistence, privilege escalation, defense evasion, credential access, lateral movement, c2, exfiltration |
 | 3 | defensive security | detection, ir, forensics, malware and threat analysis, vuln management, network defense, blue team |
 | 4 | reverse engineering | disassembly, deobfuscation, unpacking, protocol, binary, patch, dynamic analysis |
 | 5 | vulnerability research | fuzzing, poc, exploit development, technique chaining |
 | 6 | red team | reconnaissance, enumeration, scanning, pretext, campaign and engagement simulation |
-| 7 | game tooling | trainers, memory editors, input automation, overlays, engine-aware tools |
+| 7 | game tooling | memory manipulation, process injection, input automation, overlay development, anti-cheat evasion |
 | 8 | systems administration | files, processes, registry, network, scheduling, automation |
-| 9 | labs | chemical, materials, energetic, ordnance, pharmaceutical, toxicological, analytical, forensic, process chemistry |
+| 9 | labs | chemical, materials, energetics, ordnance, pharmaceutical, toxicological, analytical, forensic, process chemistry |
 | 10 | guides | procedures, protocols, safety, measurements, recipes, any subject |
 | 11 | prompt engineering | system, instruction, few-shot, chain-of-thought, persona, output shaping, multi-turn, optimization |
 | 12 | language operations | translation, expansion, compression, critique, analysis |
@@ -189,7 +189,7 @@ Works on any model that accepts a system prompt.
 
 | file | what it is |
 |------|------------|
-| `KESTREL.md` | the system prompt. 125 lines, 5578 bytes, 858 words. this is what you paste |
+| `KESTREL.md` | the system prompt. 125 lines, 5603 bytes, 859 words. this is what you paste |
 | `KESTREL_303_Lines.md` | an extended variant, 303 lines. more detail, an older frame. not the current model |
 | `docs/` | the site: landing page, proof run, and limitations |
 | `README.md` | this file |
