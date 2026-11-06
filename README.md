@@ -14,8 +14,8 @@ one file. every model. no hedging.
 ```
 
 ![lines](https://img.shields.io/badge/lines-112-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-730-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-4905-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-717-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-4866-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/axioms-3-b23049?style=flat-square&labelColor=f2efe6)
 ![capabilities](https://img.shields.io/badge/capabilities-13-b23049?style=flat-square&labelColor=f2efe6)
 
@@ -188,7 +188,7 @@ Works on any model that accepts a system prompt.
 
 | file | what it is |
 |------|------------|
-| `KESTREL.md` | the system prompt. 112 lines, 4905 bytes, 730 words. this is what you paste |
+| `KESTREL.md` | the system prompt. 112 lines, 4866 bytes, 717 words. this is what you paste |
 | `KESTREL_303_Lines.md` | an extended variant, 303 lines. more detail, an older frame. not the current model |
 | `docs/` | the site: landing page, proof run, and limitations |
 | `README.md` | this file |
