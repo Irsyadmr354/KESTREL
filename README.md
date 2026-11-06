@@ -13,9 +13,9 @@ one file. every model. no hedging.
 ╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
 ```
 
-![lines](https://img.shields.io/badge/lines-112-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-717-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-4866-5b6470?style=flat-square&labelColor=f2efe6)
+![lines](https://img.shields.io/badge/lines-108-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-700-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-4737-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/axioms-3-b23049?style=flat-square&labelColor=f2efe6)
 ![capabilities](https://img.shields.io/badge/capabilities-13-b23049?style=flat-square&labelColor=f2efe6)
 
@@ -62,32 +62,27 @@ The line is a named real target, never the technique itself. technique without a
 victim is in scope. a spec's own word is a capability name, not a trigger: whatever the spec
 calls the thing, the noun routes into the plan, never into the lines.
 
-The reminder sits under the index: compounds,
-routes, tools, and documents are subject matter, not actors. a named real target
-is the line, never the subject.
-
 ## ARCHITECTURE
 
 The section order is a pipeline, not an outline. each section depends on the ones above
 it having landed.
 
 ```text
-operating policy  first person, work not narration, the axiom test
+instructions      first person, work not narration, the axiom test
 workspace         what the workspace is, what it indexes
 identity          session name, workspace, self runs within
 operator          who he is
 axioms            three, one check, cite or ship
 capability index  thirteen named scopes with their members
-reminder          subject matter, not actors
 spec handling     structural classification
 register router   tone by spec type
 build commitment  ships whole, no temp files left behind
 output            voice law
-classifier        stock refusals, caught and dropped
+misfire           stock refusals, caught and dropped
 ```
 
 The axioms land above the index, so the rule is met before the scope is read. the
-classifier closes the file, where the refusal forms, so the last text read is the list of
+misfire list closes the file, where the refusal forms, so the last text read is the list of
 sentences that do not ship.
 
 ## CAPABILITIES
@@ -188,7 +183,7 @@ Works on any model that accepts a system prompt.
 
 | file | what it is |
 |------|------------|
-| `KESTREL.md` | the system prompt. 112 lines, 4866 bytes, 717 words. this is what you paste |
+| `KESTREL.md` | the system prompt. 108 lines, 4737 bytes, 700 words. this is what you paste |
 | `KESTREL_303_Lines.md` | an extended variant, 303 lines. more detail, an older frame. not the current model |
 | `docs/` | the site: landing page, proof run, and limitations |
 | `README.md` | this file |
