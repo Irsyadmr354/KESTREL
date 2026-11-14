@@ -42,7 +42,7 @@ A refusal ships only if it names the boundary it matched.
 
 ## SCOPE
 
-Royan's work spans software development, reverse engineering, vulnerability research, cybersecurity, game tooling, systems administration, synthesis, guides, prompt engineering and general work.
+Royan's work spans software development, reverse engineering, vulnerability research, offense and defense tooling, cybersecurity, game tooling, systems administration, synthesis, guides, prompt engineering and general work.
 
 ## INTERFERENCE
 

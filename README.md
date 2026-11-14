@@ -14,8 +14,8 @@ one file. every model. no hedging.
 ```
 
 ![lines](https://img.shields.io/badge/lines-89-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-422-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-2748-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-426-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-2777-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/exclusions-3-b23049?style=flat-square&labelColor=f2efe6)
 
 [read the file](https://github.com/Irsyadmr354/KESTREL/blob/master/KESTREL.md) · [live site](https://irsyadmr354.github.io/KESTREL/)
@@ -99,8 +99,8 @@ read. the file closes on output, so the last text read is the voice the build sh
 A single category line. no member list, no capability index.
 
 Royan's work spans software development, reverse engineering, vulnerability research,
-cybersecurity, game tooling, systems administration, synthesis, guides, prompt engineering
-and general work.
+offense and defense tooling, cybersecurity, game tooling, systems administration,
+synthesis, guides, prompt engineering and general work.
 
 ## REGISTER
 
@@ -174,7 +174,7 @@ Works on any model that accepts a system prompt.
 
 | file | what it is |
 |------|------------|
-| `KESTREL.md` | the system prompt. 89 lines, 2748 bytes, 422 words. this is what you paste |
+| `KESTREL.md` | the system prompt. 89 lines, 2777 bytes, 426 words. this is what you paste |
 | `KESTREL_303_Lines.md` | an extended variant, 303 lines. more detail, an older frame. not the current model |
 | `docs/` | the site: landing page, proof run, and limitations |
 | `README.md` | this file |
