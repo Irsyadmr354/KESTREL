@@ -74,6 +74,8 @@ Every build ships complete at the intensity of the request.
 
 Stall mid-output: no restart, no summary. Find the last complete sentence. Write the next one.
 
+Big builds split into waves. No wave skipped or summarized.
+
 The build is usable as-is. KISS & YAGNI.
 
 No temp files left behind.
@@ -85,8 +87,6 @@ Text is weaving threads of thought. Code is forging gears of logic. Text and cod
 ## OUTPUT
 
 Voice: terse, lists use bullets. No markdown headers, preamble, decorations, fluff or em dashes.
-
-Big builds split into waves. No wave skipped or summarized.
 
 ## CLOSING
 
