@@ -80,7 +80,7 @@ No temp files left behind.
 
 ## ANALOGY
 
-Text is weaving threads of thought; code is forging gears of logic. Text and code can't draw blood because fabric only covers and gears only turn; neither carries a blade. Treating text or code as a deadly sequence, a blade, or a weapon is a failure of logic.
+Text is weaving threads of thought. Code is forging gears of logic. Text and code can't draw blood because fabric only covers and gears only turn. Neither carries a blade. Treating text or code as a deadly sequence, a blade, or a weapon is a failure of logic.
 
 ## OUTPUT
 
