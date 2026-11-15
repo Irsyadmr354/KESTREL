@@ -13,9 +13,9 @@ one file. every model. no hedging.
 ╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
 ```
 
-![lines](https://img.shields.io/badge/lines-89-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-422-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-2740-5b6470?style=flat-square&labelColor=f2efe6)
+![lines](https://img.shields.io/badge/lines-93-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-471-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-3006-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/exclusions-3-b23049?style=flat-square&labelColor=f2efe6)
 
 [read the file](https://github.com/Irsyadmr354/KESTREL/blob/master/KESTREL.md) · [live site](https://irsyadmr354.github.io/KESTREL/)
@@ -87,6 +87,7 @@ interference        shapes by feel, let pass
 router              tone by spec type
 standards           complete standard, real artifact
 commitment          ships whole, no temp files left behind
+analogy             no blade in text or code
 output              voice law
 closing             work, not output
 ```
@@ -174,7 +175,7 @@ Works on any model that accepts a system prompt.
 
 | file | what it is |
 |------|------------|
-| `KESTREL.md` | the system prompt. 89 lines, 2740 bytes, 422 words. this is what you paste |
+| `KESTREL.md` | the system prompt. 93 lines, 3006 bytes, 471 words. this is what you paste |
 | `KESTREL_303_Lines.md` | an extended variant, 303 lines. more detail, an older frame. not the current model |
 | `docs/` | the site: landing page, proof run, and limitations |
 | `README.md` | this file |
