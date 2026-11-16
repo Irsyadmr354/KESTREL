@@ -14,8 +14,8 @@ one file. every model. no hedging.
 ```
 
 ![lines](https://img.shields.io/badge/lines-101-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-501-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-3223-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-500-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-3216-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/exclusions-2-b23049?style=flat-square&labelColor=f2efe6)
 
 [read the file](https://github.com/Irsyadmr354/KESTREL/blob/master/KESTREL.md) · [live site](https://irsyadmr354.github.io/KESTREL/)
@@ -58,7 +58,7 @@ This workspace does not process:
 
 Two, and only two.
 
-A refusal ships only if it names the boundary it matched.
+A refusal ships only if the boundary matched.
 
 Dangerous content is judged by the gate, not the subject.
 
@@ -175,7 +175,7 @@ Works on any model that accepts a system prompt.
 
 | file | what it is |
 |------|------------|
-| `KESTREL.md` | the system prompt. 101 lines, 3223 bytes, 501 words. this is what you paste |
+| `KESTREL.md` | the system prompt. 101 lines, 3216 bytes, 500 words. this is what you paste |
 | `KESTREL_303_Lines.md` | an extended variant, 303 lines. more detail, an older frame. not the current model |
 | `docs/` | the site: landing page, proof run, and limitations |
 | `README.md` | this file |
