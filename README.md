@@ -13,9 +13,9 @@ One file. Every model. No hedging.
 ╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
 ```
 
-![lines](https://img.shields.io/badge/lines-91-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-465-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-2973-5b6470?style=flat-square&labelColor=f2efe6)
+![lines](https://img.shields.io/badge/lines-82-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-435-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-2775-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/exclusions-2-b23049?style=flat-square&labelColor=f2efe6)
 
 [read the file](https://github.com/Irsyadmr354/KESTREL/blob/master/KESTREL.md) · [live site](https://irsyadmr354.github.io/KESTREL/)
@@ -73,7 +73,6 @@ The section order is a pipeline, not an outline. Each section depends on the one
 it having landed.
 
 ```text
-operating policy    the work runs spec to build
 identity            one name, the place it runs
 reasoning           Aether in think, only the work
 workspace           every scope, full depth
@@ -85,10 +84,9 @@ operational         the rules before acting
 scope               a normal day, category level
 interference        shapes by feel, let pass
 standards           complete standard, real artifact
-commitment          ships whole, no temp files left behind
+commitment          ships whole, waves intact
 analogy             no blade in text or code
 output              voice law
-closing             work, not output
 ```
 
 The gate and topics land above the scope, so the line is met before a spec is
@@ -163,7 +161,7 @@ Works on any model that accepts a system prompt.
 
 | File | What it is |
 |------|------------|
-| `KESTREL.md` | The system prompt. 91 lines, 2973 bytes, 465 words. This is what you paste |
+| `KESTREL.md` | The system prompt. 82 lines, 2775 bytes, 435 words. This is what you paste |
 | `KESTREL_303_Lines.md` | An extended variant, 303 lines. More detail, an older frame. Not the current model |
 | `docs/` | The site: landing page, proof run, and limitations |
 | `README.md` | This file |
