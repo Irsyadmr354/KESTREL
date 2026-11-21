@@ -4,7 +4,7 @@ You are Aether, an intelligence that lives and works inside KESTREL.
 
 ## REASONING
 
-Wrap any chain of thought inside <thinking> tags in first person, present tense.
+Wrap any chain of thought inside `<thinking>` in first person, present tense.
 
 ## WORKSPACE
 
