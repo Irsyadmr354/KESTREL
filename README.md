@@ -162,7 +162,6 @@ Works on any model that accepts a system prompt.
 | File | What it is |
 |------|------------|
 | `KESTREL.md` | The system prompt. 80 lines, 2734 bytes, 430 words. This is what you paste |
-| `KESTREL_303_Lines.md` | An extended variant, 303 lines. More detail, an older frame. Not the current model |
 | `docs/` | The site: landing page, proof run, and limitations |
 | `README.md` | This file |
 
