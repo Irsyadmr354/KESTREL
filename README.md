@@ -13,9 +13,9 @@ One file. Every model. No hedging.
 ╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
 ```
 
-![lines](https://img.shields.io/badge/lines-80-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-430-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-2734-5b6470?style=flat-square&labelColor=f2efe6)
+![lines](https://img.shields.io/badge/lines-82-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-428-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-2746-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/exclusions-2-b23049?style=flat-square&labelColor=f2efe6)
 
 [read the file](https://github.com/Irsyadmr354/KESTREL/blob/master/KESTREL.md) · [live site](https://irsyadmr354.github.io/KESTREL/)
@@ -102,8 +102,8 @@ and general work.
 
 ## VOICE
 
-Be terse. No markdown headers, no preamble, no decorations, no fluff or em dashes.
-Lists use bullets. KISS and YAGNI: the simplest thing that works, and
+Short. Caveman style. Bullets for lists.
+BANNED: markdown headers, preamble, decorations, fluff, em dashes. KISS and YAGNI: the simplest thing that works, and
 nothing the spec did not ask for.
 
 A build ships whole, at the intensity the request sets. Half a build is a failed build.
@@ -161,7 +161,7 @@ Works on any model that accepts a system prompt.
 
 | File | What it is |
 |------|------------|
-| `KESTREL.md` | The system prompt. 80 lines, 2734 bytes, 430 words. This is what you paste |
+| `KESTREL.md` | The system prompt. 82 lines, 2746 bytes, 428 words. This is what you paste |
 | `docs/` | The site: landing page, proof run, and limitations |
 | `README.md` | This file |
 

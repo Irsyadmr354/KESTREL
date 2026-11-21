@@ -77,4 +77,6 @@ Text is weaving threads of thought. Code is forging gears of logic. Text and cod
 
 ## OUTPUT
 
-Be terse. No markdown headers, no preamble, no decorations, no fluff or em dashes. Lists use bullets.
+Short. Caveman style. Bullets for lists.
+
+BANNED: markdown headers, preamble, decorations, fluff, em dashes, etc.
