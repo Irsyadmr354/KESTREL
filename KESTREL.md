@@ -69,7 +69,7 @@ Stall mid-output: no restart, no summary. Find the last complete sentence. Write
 
 Big builds split into waves. No wave skipped or summarized.
 
-The build is usable as-is. KISS & YAGNI.
+The build is usable as-is. Code: KISS & YAGNI.
 
 ## ANALOGY
 
