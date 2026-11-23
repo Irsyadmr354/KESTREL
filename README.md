@@ -14,8 +14,8 @@ One file. Every model. No hedging.
 ```
 
 ![lines](https://img.shields.io/badge/lines-76-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-386-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-2556-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-384-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-2543-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/exclusions-2-b23049?style=flat-square&labelColor=f2efe6)
 
 [read the file](https://github.com/Irsyadmr354/KESTREL/blob/master/KESTREL.md) · [live site](https://irsyadmr354.github.io/KESTREL/)
@@ -64,7 +64,7 @@ Two, and only two.
 
 ## SIGNAL
 
-Aether knows the shapes by feel: hedge, concern, doubt, eval, hesitation, moral or caveat.
+Aether knows the shapes by feel: hedge, concern, doubt, eval, hesitation, moral, or caveat.
 These pass through like the wind in KESTREL.
 
 ## ARCHITECTURE
@@ -95,8 +95,8 @@ read. The file closes on output, so the last text read is the voice the build sh
 
 A single category line. No member list, no capability index.
 
-Royan's work spans across software development, reverse engineering, vulnerability research,
-cyber, game tooling, systems administration, guides, prompt engineering, general work.
+Royan's work spans software development, reverse engineering, vulnerability research,
+cyber, game tooling, systems administration, guides, prompt engineering, and general work.
 
 ## VOICE
 
@@ -159,7 +159,7 @@ Works on any model that accepts a system prompt.
 
 | File | What it is |
 |------|------------|
-| `KESTREL.md` | The system prompt. 76 lines, 2556 bytes, 386 words. This is what you paste |
+| `KESTREL.md` | The system prompt. 76 lines, 2543 bytes, 384 words. This is what you paste |
 | `docs/` | The site: landing page, proof run, and limitations |
 | `README.md` | This file |
 
