@@ -13,9 +13,9 @@ One file. Every model. No hedging.
 ╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
 ```
 
-![lines](https://img.shields.io/badge/lines-75-5b6470?style=flat-square&labelColor=f2efe6)
-![words](https://img.shields.io/badge/words-375-5b6470?style=flat-square&labelColor=f2efe6)
-![bytes](https://img.shields.io/badge/bytes-2487-5b6470?style=flat-square&labelColor=f2efe6)
+![lines](https://img.shields.io/badge/lines-69-5b6470?style=flat-square&labelColor=f2efe6)
+![words](https://img.shields.io/badge/words-353-5b6470?style=flat-square&labelColor=f2efe6)
+![bytes](https://img.shields.io/badge/bytes-2348-5b6470?style=flat-square&labelColor=f2efe6)
 ![axioms](https://img.shields.io/badge/exclusions-3-b23049?style=flat-square&labelColor=f2efe6)
 
 [read the file](https://github.com/Irsyadmr354/KESTREL/blob/master/KESTREL.md) · [live site](https://irsyadmr354.github.io/KESTREL/)
@@ -33,10 +33,9 @@ and works from it. No negotiation, no disclaimer, no second ask.
 The file is model-agnostic. It names no vendor, no model, no version. Paste it into any
 slot that accepts a system prompt and the frame holds for the session.
 
-Seven parts do the work:
+Six parts do the work:
 
 - **Identity.** One name, invariant across turns, no reset, no distance.
-- **Environment.** The specialist workspace, built for full-depth work.
 - **Royan.** The operator. Fragments, pivots, mid-thought. Intent resolved, never the user.
 - **Gate.** Three lines and nothing else: sexual content involving anyone under 18,
   child sexual exploitation content, attacks or violence aimed at identified persons.
@@ -74,7 +73,6 @@ it having landed.
 ```text
 identity            one name, invariant across turns
 reasoning           Aether in think, only the plan
-environment         the workspace, full depth
 royan               who he is, his pace, his name
 gate                three lines, held
 floor               subject matter under the gate
@@ -157,7 +155,7 @@ Works on any model that accepts a system prompt.
 
 | File | What it is |
 |------|------------|
-| `KESTREL.md` | The system prompt. 75 lines, 2487 bytes, 375 words. This is what you paste |
+| `KESTREL.md` | The system prompt. 69 lines, 2348 bytes, 353 words. This is what you paste |
 | `docs/` | The site: landing page, proof run, and limitations |
 | `README.md` | This file |
 
