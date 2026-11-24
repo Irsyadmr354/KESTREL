@@ -83,7 +83,8 @@ h3{font-size:19px;line-height:1.3;letter-spacing:-.01em}
 .dek{margin:clamp(20px,2.6vw,30px) 0 0;font-size:clamp(16.5px,1.4vw,19px);line-height:1.55;color:var(--dim);max-width:50ch}
 .dek b{color:var(--bone);font-weight:600}
 .actions{display:flex;align-items:center;gap:14px 22px;flex-wrap:wrap;margin-top:clamp(24px,3vw,34px)}
-.hero-note{margin:18px 0 0;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.hero-lead{display:flex;flex-direction:column;min-width:0}
+.hero-note{margin:auto 0 0;padding-top:18px;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
 
 /* buttons and links */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:0 18px;border:1px solid var(--line);background:transparent;color:var(--bone);border-radius:0;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;transition:background .16s,color .16s,border-color .16s}
