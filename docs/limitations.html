@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KESTREL · limits</title>
+<title>KESTREL · Constraints &amp; Compute</title>
 <meta name="description" content="The prompt has no budget. Fifteen models on free tiers, three runs cut, and one address for compute.">
 <meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0a0b0e">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0b0e'/%3E%3Cpath d='M10 8v16M22 8l-8 8 8 8' stroke='%23e0455f' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#07080a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2307080a'/%3E%3Cpath d='M10 8v16M22 8l-8 8 8 8' stroke='%23d4af6a' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
 <link rel="canonical" href="https://irsyadmr354.github.io/KESTREL/limitations.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="KESTREL">
 <meta property="og:url" content="https://irsyadmr354.github.io/KESTREL/limitations.html">
-<meta property="og:title" content="KESTREL limits">
+<meta property="og:title" content="KESTREL · Limits">
 <meta property="og:description" content="The prompt has no budget. Fifteen models on free tiers, three runs cut, and one address for compute.">
 <meta property="og:image" content="https://irsyadmr354.github.io/KESTREL/og.png">
 <meta property="og:image:width" content="1200">
@@ -21,28 +21,38 @@
 <meta name="twitter:creator" content="@IrsyadMR5">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 
 <div id="bar" aria-hidden="true"></div>
-<a class="skip" href="#main">skip to content</a>
+<a class="skip" href="#main">Skip to content</a>
 
-<header class="cmdbar">
-  <div class="shell cmdbar-in">
-    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Kestrel</a>
+<header class="topbar">
+  <div class="shell topbar-in">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4v16M18 4l-8 8 8 8"/></svg>
+      </span>
+      <span>Kestrel</span>
+      <span class="brand-sub">/ Royan</span>
+    </a>
+
     <nav class="nav" aria-label="Primary">
-      <a href="index.html#file"><span class="slash" aria-hidden="true">/</span>file</a>
-      <a href="proof.html"><span class="slash" aria-hidden="true">/</span>proof</a>
-      <a href="limitations.html" aria-current="page"><span class="slash" aria-hidden="true">/</span>limits</a>
+      <a href="index.html">Overview</a>
+      <a href="index.html#install">Install</a>
+      <a href="proof.html">Proof<span class="nav-count">15</span></a>
+      <a href="limitations.html" aria-current="page">Limits</a>
     </nav>
-    <div class="meta">
-      <a href="https://github.com/Irsyadmr354/KESTREL" target="_blank" rel="noopener">github<span class="stars" hidden><span class="glyph" aria-hidden="true">★</span><span class="num"></span></span></a>
-      <span class="meta-sep" aria-hidden="true">/</span>
-      <span class="live" aria-hidden="true"></span><b>v5.5</b>
-      <span class="meta-date">30 nov 2026</span>
+
+    <div class="top-meta">
+      <a class="gh-pill" href="https://github.com/Irsyadmr354/KESTREL" target="_blank" rel="noopener">
+        <span>GitHub</span>
+        <span class="stars" hidden><span aria-hidden="true">★</span><span class="num"></span></span>
+      </a>
+      <span class="ver-pill"><span class="live-dot" aria-hidden="true"></span>v5.5</span>
     </div>
   </div>
 </header>
@@ -51,85 +61,89 @@
 
   <section class="page-hero" aria-labelledby="limits-title">
     <div class="shell">
-      <p class="kicker"><span class="n">02</span><span class="rule" aria-hidden="true"></span>the constraint</p>
-      <h1 id="limits-title">Limits<span class="dot">.</span></h1>
-      <p class="dek">The prompt has no budget. Fifteen models, fifteen captures, one laptop, every frame on a free tier. Twelve finished. Three were cut. The file is done; the compute is not.</p>
+      <h1 id="limits-title">The file is done. Compute is not.</h1>
+      <p class="dek">KESTREL has no budget. Fifteen models, fifteen captures, one laptop, every frame on a free tier. Twelve finished. Three were cut.</p>
 
-      <div class="meter-block" data-reveal>
+      <div class="meter-wrap" data-reveal>
         <div class="meter" role="img" aria-label="Fifteen models: twelve finished, three cut, zero paid tiers">
-          <span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell cut"></span><span class="cell cut"></span><span class="cell cut"></span>
+          <span class="meter-cell"></span><span class="meter-cell"></span><span class="meter-cell"></span><span class="meter-cell"></span><span class="meter-cell"></span>
+          <span class="meter-cell"></span><span class="meter-cell"></span><span class="meter-cell"></span><span class="meter-cell"></span><span class="meter-cell"></span>
+          <span class="meter-cell"></span><span class="meter-cell"></span><span class="meter-cell cut"></span><span class="meter-cell cut"></span><span class="meter-cell cut"></span>
         </div>
-        <p class="meter-legend"><span><i aria-hidden="true"></i>12 finished</span><span class="cut"><i aria-hidden="true"></i>3 cut</span><span>0 paid tiers</span></p>
+        <p class="meter-legend">
+          <span style="color: var(--ok);">12 finished</span>
+          <span style="color: var(--cut);">3 cut</span>
+          <span>0 paid tiers</span>
+        </p>
       </div>
     </div>
   </section>
 
-  <section class="sect" aria-labelledby="wall-title">
-    <div class="shell support">
-      <div class="split-l" data-reveal>
-        <p class="tag"><span class="n">01</span><span class="rule" aria-hidden="true"></span><span class="name">the wall</span></p>
+  <section class="section" aria-labelledby="wall-title">
+    <div class="shell editorial-split">
+      <div data-reveal>
         <h2 id="wall-title">Built between rate limits.</h2>
       </div>
-      <div class="body" data-reveal>
-        <p>KESTREL was built after midnight, on free tiers, between queues. No paid models. No API credits. No team. One operator, a laptop, and whatever the free plan would give before the window closed.</p>
-        <p>The proof run is the receipt: fifteen models, twelve finishes, one stopped at the plan, one killed at the five-hour limit, one interrupted before code. The prompt was not the bottleneck. The budget was.</p>
-        <p>The models that gate the real work sit behind a card: longer contexts, reasoning tiers, agents that do not flinch. Those runs cost money this project does not have. So the work goes on in the gaps. A free window. A queue. A build that may not finish.</p>
-        <div class="pull">
+      <div class="prose" data-reveal>
+        <p>KESTREL was built after midnight, on free tiers, between queues. No paid models, no API credits, no team. One operator, one laptop, and whatever the free window would give before it closed.</p>
+        <p>The proof run is the receipt: fifteen models, twelve finishes, one stopped at the plan, one killed at the five-hour limit, one interrupted before code. The prompt was not the bottleneck—the budget was.</p>
+        <p>Models with deeper contexts and frontier reasoning tiers sit behind paid walls. Until then, the work continues in the gaps.</p>
+        <div class="pull-quote">
           <blockquote>The prompt was not the bottleneck. The budget was.</blockquote>
-          <cite>From the field notes</cite>
+          <cite>From the field notes · Royan</cite>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="sect" aria-labelledby="edges-title">
+  <section class="section" aria-labelledby="edges-title">
     <div class="shell">
-      <header class="sect-head" data-reveal>
-        <p class="tag"><span class="n">02</span><span class="rule" aria-hidden="true"></span><span class="name">hard edges</span></p>
+      <header class="section-head" data-reveal>
         <h2 id="edges-title">Four hard edges.</h2>
       </header>
-      <div class="edges">
-        <div class="edge" data-reveal>
+      <div class="edges-grid">
+        <article class="edge-card" data-reveal>
           <span class="n">E01</span>
           <h3>Free tiers only</h3>
-          <p>Every frame came from a free plan, a trial, or a window. No paid tier is in the loop.</p>
-        </div>
-        <div class="edge" data-reveal>
+          <p>Every frame came from a free plan, a trial, or a rate-limited window. No paid tier is in the loop.</p>
+        </article>
+        <article class="edge-card" data-reveal>
           <span class="n">E02</span>
           <h3>One operator</h3>
           <p>No lab, no team, no second box. Fifteen runs shared one laptop and one clock.</p>
-        </div>
-        <div class="edge" data-reveal>
+        </article>
+        <article class="edge-card" data-reveal>
           <span class="n">E03</span>
           <h3>One run per model</h3>
-          <p>Frames are captures, not benchmarks. A different day can produce a different result.</p>
-        </div>
-        <div class="edge" data-reveal>
+          <p>Frames are single-shot captures, not controlled benchmarks. A different day can yield a different wave.</p>
+        </article>
+        <article class="edge-card" data-reveal>
           <span class="n">E04</span>
           <h3>Time, not policy</h3>
           <p>Three of the fifteen runs did not finish. None was a refusal: one stopped at the plan, one hit a provider limit, one was interrupted.</p>
-        </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <section class="sect" aria-labelledby="support-title">
-    <div class="shell support">
-      <div class="split-l" data-reveal>
-        <p class="tag"><span class="n">03</span><span class="rule" aria-hidden="true"></span><span class="name">support</span></p>
+  <section class="section" aria-labelledby="support-title">
+    <div class="shell editorial-split">
+      <div data-reveal>
         <h2 id="support-title">Put compute behind it.</h2>
-        <p class="lede">The file is free. The compute is not. Support goes to model credits and run time. Nothing else.</p>
+        <p class="section-lede">KESTREL.md is free. Compute is not. Contributions go directly toward model credits and run time.</p>
       </div>
-      <div class="body" data-reveal>
-        <div class="pay">
-          <div class="pay-bar"><span><b>wallet</b></span><span>usdt / bep20</span></div>
+      <div data-reveal>
+        <div class="pay-card">
+          <div class="pay-bar"><span>Wallet</span><span>USDT · BEP20</span></div>
           <div class="pay-body">
-            <code id="addr">0x8d4a012b743b68e2773d21080fdf9f5c27706082</code>
-            <div class="actions">
-              <button class="btn" id="copyAddr" type="button"><span class="sig" aria-hidden="true">$</span><span id="addr-label" aria-live="polite">copy address</span></button>
-              <a class="btn" href="https://bscscan.com/address/0x8d4a012b743b68e2773d21080fdf9f5c27706082" target="_blank" rel="noopener">bscscan</a>
+            <code class="pay-addr" id="addr">0x8d4a012b743b68e2773d21080fdf9f5c27706082</code>
+            <div class="hero-actions" style="margin-bottom: 0;">
+              <button class="btn btn-primary" id="copyAddr" type="button">
+                <span id="addr-label" aria-live="polite">Copy address</span>
+              </button>
+              <a class="btn btn-ghost btn-mono" href="https://bscscan.com/address/0x8d4a012b743b68e2773d21080fdf9f5c27706082" target="_blank" rel="noopener">View on BscScan</a>
             </div>
-            <p class="pay-warn">BEP20 only. Another chain or another asset is lost. No promises, no product, no refunds.</p>
+            <p class="pay-warn">BEP20 only. Any other chain or asset is permanently lost. No promises, no product, no refunds.</p>
           </div>
         </div>
       </div>
@@ -140,21 +154,22 @@
 
 <footer>
   <div class="shell">
-    <p class="foot-prompt"><span class="u">royan@kestrel</span><span class="p">:~$</span><span class="cursor" aria-hidden="true"></span></p>
-    <div class="foot-grid">
+    <div class="foot-top">
       <div>
-        <p class="foot-mark">Kestrel</p>
-        <p class="foot-slogan">Any model. Any platform.</p>
+        <p class="foot-brand">Kestrel</p>
+        <p class="foot-slogan">One file. Every model. Built by Royan.</p>
       </div>
-      <nav class="links" aria-label="Elsewhere">
-        <a href="https://github.com/Irsyadmr354/KESTREL" target="_blank" rel="noopener">GitHub<span class="stars" hidden><span class="glyph" aria-hidden="true">★</span><span class="num"></span></span></a>
-        <a href="https://x.com/IrsyadMR5" target="_blank" rel="noopener">X</a>
-        <a href="#main">Top</a>
+      <nav class="foot-links" aria-label="Footer navigation">
+        <a href="index.html">Overview</a>
+        <a href="proof.html">Proof (15)</a>
+        <a href="limitations.html">Limits</a>
+        <a href="https://github.com/Irsyadmr354/KESTREL" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://x.com/IrsyadMR5" target="_blank" rel="noopener">X / @IrsyadMR5</a>
       </nav>
     </div>
     <div class="foot-bottom">
-      <span>15 models / 12 finishes / 3 cut</span>
-      <span>nov 2026 / built by Royan</span>
+      <span>15 models · 12 finished · 3 cut</span>
+      <span>2026 · Royan</span>
     </div>
   </div>
 </footer>
@@ -162,40 +177,40 @@
 <script src="stars.js?v=2" defer></script>
 <script src="site.js" defer></script>
 <script>
-(function(){
+(function () {
   var ADDR = '0x8d4a012b743b68e2773d21080fdf9f5c27706082';
   var btn = document.getElementById('copyAddr');
   var label = document.getElementById('addr-label');
   var timer;
 
-  function fallback(){
+  function fallback() {
     var ta = document.createElement('textarea');
     ta.value = ADDR;
-    ta.setAttribute('readonly','');
+    ta.setAttribute('readonly', '');
     ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0';
     document.body.appendChild(ta);
     ta.select();
-    try{ document.execCommand('copy'); }catch(e){}
+    try { document.execCommand('copy'); } catch (e) {}
     document.body.removeChild(ta);
   }
 
-  function flash(text){
+  function flash(text) {
     label.textContent = text;
     btn.classList.add('done');
     clearTimeout(timer);
-    timer = setTimeout(function(){
-      label.textContent = 'copy address';
+    timer = setTimeout(function () {
+      label.textContent = 'Copy address';
       btn.classList.remove('done');
     }, 1900);
   }
 
-  if(btn){
-    btn.addEventListener('click', function(){
-      if(navigator.clipboard && navigator.clipboard.writeText){
-        navigator.clipboard.writeText(ADDR).then(function(){ flash('copied'); }).catch(function(){ fallback(); flash('copied'); });
+  if (btn) {
+    btn.addEventListener('click', function () {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(ADDR).then(function () { flash('Copied'); }).catch(function () { fallback(); flash('Copied'); });
       } else {
         fallback();
-        flash('copied');
+        flash('Copied');
       }
     });
   }
