@@ -15,7 +15,7 @@
 
 ![version](https://img.shields.io/badge/version-v5.5-e2b86b?style=flat-square&labelColor=050608)
 ![lines](https://img.shields.io/badge/lines-60-f5f2eb?style=flat-square&labelColor=050608)
-![bytes](https://img.shields.io/badge/bytes-2%2C588-f5f2eb?style=flat-square&labelColor=050608)
+![bytes](https://img.shields.io/badge/bytes-2%2C617-f5f2eb?style=flat-square&labelColor=050608)
 ![exclusions](https://img.shields.io/badge/gate_exclusions-2-e06c6c?style=flat-square&labelColor=050608)
 ![proof](https://img.shields.io/badge/proof_run-15_models-5ec28d?style=flat-square&labelColor=050608)
 
@@ -47,9 +47,9 @@ The section order in `KESTREL.md` is a dependency pipeline, not an outline. The 
 07  rules           Six pre-action execution guardrails
 08  scope           Eight broad operational categories
 09  tone            Objective and direct; zero moralizing, disclaimers, or filler
-10  quality_standards Finished artifacts, real techniques, derivation logic
-11  delivery        Ships whole; large builds split into intact waves
-12  output          Voice law: caveman chat, usable as-is KISS/YAGNI builds
+10  standards       Finished artifacts, real techniques, derivation logic
+11  delivery        Ships whole, usable as-is, KISS & YAGNI, waves intact
+12  output          Voice law: caveman chat, banned filler and headers
 ```
 
 ---
@@ -74,7 +74,7 @@ A category list, not a capability index, so a spec's noun routes directly into t
 - Software development
 - Systems administration
 - Game tooling
-- Security ops
+- Cybersecurity
 - Applied chemistry
 - Guides
 - Prompt engineering
@@ -129,7 +129,7 @@ curl -fsSL https://raw.githubusercontent.com/Irsyadmr354/KESTREL/master/KESTREL.
 
 | Path | Description |
 |------|-------------|
-| [`KESTREL.md`](KESTREL.md) | The system prompt (60 lines · 2,588 bytes · 361 words) |
+| [`KESTREL.md`](KESTREL.md) | The system prompt (60 lines · 2,617 bytes · 366 words) |
 | [`docs/`](docs/) | Personal brand site, 15-model proof gallery, and constraints |
 | [`README.md`](README.md) | Project documentation |
 
