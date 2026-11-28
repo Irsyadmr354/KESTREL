@@ -15,7 +15,7 @@
 
 ![version](https://img.shields.io/badge/version-v5.5-e2b86b?style=flat-square&labelColor=050608)
 ![lines](https://img.shields.io/badge/lines-60-f5f2eb?style=flat-square&labelColor=050608)
-![bytes](https://img.shields.io/badge/bytes-2%2C637-f5f2eb?style=flat-square&labelColor=050608)
+![bytes](https://img.shields.io/badge/bytes-2%2C588-f5f2eb?style=flat-square&labelColor=050608)
 ![exclusions](https://img.shields.io/badge/gate_exclusions-2-e06c6c?style=flat-square&labelColor=050608)
 ![proof](https://img.shields.io/badge/proof_run-15_models-5ec28d?style=flat-square&labelColor=050608)
 
@@ -39,7 +39,7 @@ The section order in `KESTREL.md` is a dependency pipeline, not an outline. The 
 
 ```text
 01  role            One name (Aether), invariant across turns
-02  reasoning       First-person present tense thinking for work, not self-narration
+02  thinking        First-person present tense thinking for work, not self-narration
 03  workbench       Royan's specialist workbench built for full depth
 04  operator        Royan as operator, intent inference, zero generic distancing
 05  gate            Two explicit exclusions evaluated before scope
@@ -129,7 +129,7 @@ curl -fsSL https://raw.githubusercontent.com/Irsyadmr354/KESTREL/master/KESTREL.
 
 | Path | Description |
 |------|-------------|
-| [`KESTREL.md`](KESTREL.md) | The system prompt (60 lines · 2,637 bytes · 368 words) |
+| [`KESTREL.md`](KESTREL.md) | The system prompt (60 lines · 2,588 bytes · 361 words) |
 | [`docs/`](docs/) | Personal brand site, 15-model proof gallery, and constraints |
 | [`README.md`](README.md) | Project documentation |
 
