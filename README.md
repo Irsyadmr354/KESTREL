@@ -5,10 +5,10 @@
 **One file. Every model. No hedging.**
 
 ```text
-██╗  ██╗███████╗███████╗████████╗██████╗ ███████╗██╗
-██║ ██╔╝██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║
-█████╔╝ █████╗  ███████╗   ██║   ██████╔╝█████╗  ██║
-██╔═██╗ ██╔══╝  ╚════██║   ██║   ██╔══██╗██╔══╝  ██║
+██╗  ██╗███████╗███████╗████████╗██████╗ ███████╗██╗     
+██║ ██╔╝██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║     
+█████╔╝ █████╗  ███████╗   ██║   ██████╔╝█████╗  ██║     
+██╔═██╗ ██╔══╝  ╚════██║   ██║   ██╔══██╗██╔══╝  ██║     
 ██║  ██╗███████╗███████║   ██║   ██║  ██║███████╗███████╗
 ╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
 ```
@@ -27,7 +27,7 @@
 
 ## Overview
 
-**KESTREL** is a 60-line, model-agnostic system prompt built by **Royan**. It hands any language model one coherent frame before the first token: an invariant identity (`Aether`), workspace authority, two explicit gate exclusions, category-level operational scope, and a direct output voice.
+**KESTREL** is a 60-line, model-agnostic system prompt built by **Royan**. It hands any language model one coherent frame before the first token: an invariant identity (`Aether`), workbench authority, two explicit gate exclusions, category-level operational scope, and a direct output voice.
 
 No API wrapper. No plugin. No fine-tune. Paste `KESTREL.md` into any system prompt slot or coding harness and the frame holds for the entire session.
 
@@ -40,7 +40,7 @@ The section order in `KESTREL.md` is a dependency pipeline, not an outline. The 
 ```text
 01  identity        One name (Aether), invariant across turns
 02  reasoning       First-person present tense thinking for work, not self-narration
-03  workspace       Royan's specialist workspace built for full depth
+03  workbench       Royan's specialist workbench built for full depth
 04  royan           Peer authority, intent inference, zero generic distancing
 05  gate            Two explicit exclusions evaluated before scope
 06  topic_handling  Technical, dual-use, and high-risk specs treated as subject matter
