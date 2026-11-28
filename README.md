@@ -69,7 +69,7 @@ KESTREL enforces two hard exclusions and nothing else:
 
 ## Operational Scope
 
-A category list, not a capability index—so a spec's noun routes directly into the execution plan instead of tripping keyword fingerprints:
+A category list, not a capability index, so a spec's noun routes directly into the execution plan instead of tripping keyword fingerprints:
 
 - Software development
 - Systems administration
